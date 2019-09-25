@@ -1,0 +1,6 @@
+$dokka.format:html
+$dokka.linkExtension:html
+
+com.example.vittles
+com.example.vittles.data
+com.example.vittles.model
