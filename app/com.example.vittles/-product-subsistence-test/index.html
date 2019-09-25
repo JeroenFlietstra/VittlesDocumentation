@@ -9,6 +9,13 @@
 <br/>
 <h1>ProductSubsistenceTest</h1>
 <code><span class="keyword">class </span><span class="identifier">ProductSubsistenceTest</span></code>
+<p>Tests the subsistence of the product data model with the dao in the Room
+database. This includes persisting, removing, merging and finding products in
+the database.</p>
+<p><strong>Author</strong><br/>
+Jan-Willem van Bremen</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
 <h3>Constructors</h3>
 <table>
 <tbody>
@@ -17,7 +24,11 @@
 <p><a href="-init-.html">&lt;init&gt;</a></p>
 </td>
 <td>
-<code><span class="identifier">ProductSubsistenceTest</span><span class="symbol">(</span><span class="symbol">)</span></code></td>
+<code><span class="identifier">ProductSubsistenceTest</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>Tests the subsistence of the product data model with the dao in the Room
+database. This includes persisting, removing, merging and finding products in
+the database.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -29,21 +40,28 @@
 <p><a href="find-product-test.html">findProductTest</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">findProductTest</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">findProductTest</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Tests the finding of products based on name and asserts if the name corresponds
+with the found product</p>
+</td>
 </tr>
 <tr>
 <td>
 <p><a href="merge-product-no-uid-test.html">mergeProductNoUidTest</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">mergeProductNoUidTest</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">mergeProductNoUidTest</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Tests if updating products with no uid doesn't affect any rows</p>
+</td>
 </tr>
 <tr>
 <td>
 <p><a href="merge-product-test.html">mergeProductTest</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">mergeProductTest</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">mergeProductTest</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Tests if products can be updated in the database.</p>
+</td>
 </tr>
 <tr>
 <td>
@@ -54,10 +72,42 @@
 </tr>
 <tr>
 <td>
+<p><a href="remove-non-existing-product-test.html">removeNonExistingProductTest</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">removeNonExistingProductTest</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Tests the removal of products with uid that does not correspond to any record
+in the database</p>
+</td>
+</tr>
+<tr>
+<td>
 <p><a href="remove-product-test.html">removeProductTest</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">removeProductTest</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">removeProductTest</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Tests the removal of products and asserts the number of rows affected</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-up.html">setUp</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setUp</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Handles the setup before each test. This includes populating the database and setting
+up a variable with the inserted population which is used for assertion in certain tests.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="tear-down.html">tearDown</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">tearDown</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Empties the database after each test so a new population can be inserted before the next
+tests.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -66,17 +116,12 @@
 <tbody>
 <tr>
 <td>
-<p><a href="set-up.html">setUp</a></p>
+<p><a href="get-dao.html">getDao</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">setUp</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="tear-down.html">tearDown</a></p>
+<code><span class="keyword">fun </span><span class="identifier">getDao</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Assigns the Data Access Object to productDao property</p>
 </td>
-<td>
-<code><span class="keyword">fun </span><span class="identifier">tearDown</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
 </tr>
 </tbody>
 </table>
