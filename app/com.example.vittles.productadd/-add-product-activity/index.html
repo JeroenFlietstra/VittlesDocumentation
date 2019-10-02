@@ -64,7 +64,9 @@ create a product manually and insert it into the local database.</p>
 <p><a href="../../com.example.vittles.mvp/-base-activity/inject.html">inject</a></p>
 </td>
 <td>
-<code><span class="keyword">val </span><span class="identifier">inject</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">val </span><span class="identifier">inject</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Lazy call the injectDependencies method.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -95,7 +97,10 @@ button click listeners.</p>
 <p><a href="inject-dependencies.html">injectDependencies</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">injectDependencies</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">injectDependencies</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Abstract method which has to be implemented for the DaggerComponent that will build the
+dependency injections.</p>
+</td>
 </tr>
 <tr>
 <td>

@@ -10,6 +10,10 @@
 <h1>ProductsPresenter</h1>
 <code><span class="keyword">class </span><span class="identifier">ProductsPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.mvp/-base-presenter/index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../-products-activity/index.html"><span class="identifier">ProductsActivity</span></a><span class="symbol">&gt;</span></code>
 <p>The presenter for the main product activity.</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<p><strong>Author</strong><br/>
+Arjen Simons</p>
 <h3>Constructors</h3>
 <table>
 <tbody>
@@ -32,7 +36,9 @@
 <p><a href="fetch-products-use-case.html">fetchProductsUseCase</a></p>
 </td>
 <td>
-<code><span class="keyword">val </span><span class="identifier">fetchProductsUseCase</span><span class="symbol">: </span><span class="identifier">FetchProductsUseCase</span></code></td>
+<code><span class="keyword">val </span><span class="identifier">fetchProductsUseCase</span><span class="symbol">: </span><span class="identifier">FetchProductsUseCase</span></code>
+<p>The FetchProductUseCase from the domain module</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -63,14 +69,18 @@
 <p><a href="load-indication-colors.html">loadIndicationColors</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">loadIndicationColors</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductsPresenter$loadIndicationColors(kotlin.collections.List((com.example.domain.model.Product)))/products">products</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">loadIndicationColors</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductsPresenter$loadIndicationColors(kotlin.collections.List((com.example.domain.model.Product)))/products">products</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Loads the indication colors for the products.</p>
+</td>
 </tr>
 <tr>
 <td>
 <p><a href="load-products.html">loadProducts</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">loadProducts</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">loadProducts</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Loads the products.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -82,21 +92,27 @@
 <p><a href="../../com.example.vittles.mvp/-base-presenter/destroy.html">destroy</a></p>
 </td>
 <td>
-<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">destroy</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">destroy</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to clear the disposables of the presenter.</p>
+</td>
 </tr>
 <tr>
 <td>
 <p><a href="../../com.example.vittles.mvp/-base-presenter/start.html">start</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">start</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.mvp.BasePresenter$start(com.example.vittles.mvp.BasePresenter.V)/view">view</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.mvp/-base-presenter/index.html#V"><span class="identifier">V</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">start</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.mvp.BasePresenter$start(com.example.vittles.mvp.BasePresenter.V)/view">view</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.mvp/-base-presenter/index.html#V"><span class="identifier">V</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to start the presenter, will assign the activity.</p>
+</td>
 </tr>
 <tr>
 <td>
 <p><a href="../../com.example.vittles.mvp/-base-presenter/stop.html">stop</a></p>
 </td>
 <td>
-<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">stop</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">stop</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to stop the presenter.</p>
+</td>
 </tr>
 </tbody>
 </table>

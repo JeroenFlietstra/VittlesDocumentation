@@ -9,6 +9,15 @@
 <br/>
 <h1>BasePresenter</h1>
 <code><span class="keyword">abstract</span> <span class="keyword">class </span><span class="identifier">BasePresenter</span><span class="symbol">&lt;</span><span class="identifier">V</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">AppCompatActivity</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../-mvp-presenter/index.html"><span class="identifier">MvpPresenter</span></a></code>
+<p>Superclass of all presenters. This class has properties that will be used in all
+presenters.</p>
+<h3>Parameters</h3>
+<p><a name="V"></a>
+<code>V</code> - The activity (V: View) of the presenter.</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<p><strong>Author</strong><br/>
+Arjen Simons</p>
 <h3>Constructors</h3>
 <table>
 <tbody>
@@ -17,7 +26,10 @@
 <p><a href="-init-.html">&lt;init&gt;</a></p>
 </td>
 <td>
-<code><span class="identifier">BasePresenter</span><span class="symbol">(</span><span class="symbol">)</span></code></td>
+<code><span class="identifier">BasePresenter</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>Superclass of all presenters. This class has properties that will be used in all
+presenters.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -48,21 +60,27 @@
 <p><a href="destroy.html">destroy</a></p>
 </td>
 <td>
-<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">destroy</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">destroy</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to clear the disposables of the presenter.</p>
+</td>
 </tr>
 <tr>
 <td>
 <p><a href="start.html">start</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">start</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.mvp.BasePresenter$start(com.example.vittles.mvp.BasePresenter.V)/view">view</span><span class="symbol">:</span>&nbsp;<a href="index.html#V"><span class="identifier">V</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">start</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.mvp.BasePresenter$start(com.example.vittles.mvp.BasePresenter.V)/view">view</span><span class="symbol">:</span>&nbsp;<a href="index.html#V"><span class="identifier">V</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to start the presenter, will assign the activity.</p>
+</td>
 </tr>
 <tr>
 <td>
 <p><a href="stop.html">stop</a></p>
 </td>
 <td>
-<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">stop</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">stop</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to stop the presenter.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +92,9 @@
 <p><a href="../../com.example.vittles.productadd/-add-product-presenter/index.html">AddProductPresenter</a></p>
 </td>
 <td>
-<code><span class="keyword">class </span><span class="identifier">AddProductPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../../com.example.vittles.productadd/-add-product-activity/index.html"><span class="identifier">AddProductActivity</span></a><span class="symbol">&gt;</span></code></td>
+<code><span class="keyword">class </span><span class="identifier">AddProductPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../../com.example.vittles.productadd/-add-product-activity/index.html"><span class="identifier">AddProductActivity</span></a><span class="symbol">&gt;</span></code>
+<p>This is the presenter for the add product activity.</p>
+</td>
 </tr>
 <tr>
 <td>

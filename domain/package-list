@@ -1,7 +1,6 @@
 $dokka.format:html
 $dokka.linkExtension:html
 
-com.example.domain
 com.example.domain.model
 com.example.domain.productadd
 com.example.domain.productfetch
