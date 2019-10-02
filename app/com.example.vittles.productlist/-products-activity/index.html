@@ -1,0 +1,168 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ProductsActivity - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.productlist</a>&nbsp;/&nbsp;<a href="./index.html">ProductsActivity</a><br/>
+<br/>
+<h1>ProductsActivity</h1>
+<code><span class="keyword">class </span><span class="identifier">ProductsActivity</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.mvp/-base-activity/index.html"><span class="identifier">BaseActivity</span></a></code>
+<p>Activity class for the main activity. This is the activity that shows the list of products.</p>
+<p><strong>Author</strong><br/>
+Arjen Simons</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<p><strong>Author</strong><br/>
+Jan-Willem van Bremen</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">ProductsActivity</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>Activity class for the main activity. This is the activity that shows the list of products.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="presenter.html">presenter</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">presenter</span><span class="symbol">: </span><a href="../-products-presenter/index.html"><span class="identifier">ProductsPresenter</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="product-adapter.html">productAdapter</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">productAdapter</span><span class="symbol">: </span><a href="../-product-adapter/index.html"><span class="identifier">ProductAdapter</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="products.html">products</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">products</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html"><span class="identifier">ArrayList</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inherited Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../com.example.vittles.mvp/-base-activity/inject.html">inject</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">inject</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="init-views.html">initViews</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">initViews</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Initializes the RecyclerView.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="inject-dependencies.html">injectDependencies</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">injectDependencies</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-add-button-click.html">onAddButtonClick</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onAddButtonClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Called when the add button is clicked.
+It starts the addProduct activity.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-create.html">onCreate</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onCreate</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductsActivity$onCreate(android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Called when the ProductsActivity is created.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-create-options-menu.html">onCreateOptionsMenu</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onCreateOptionsMenu</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductsActivity$onCreateOptionsMenu(android.view.Menu)/menu">menu</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/Menu.html"><span class="identifier">Menu</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Called when the option menu is created.
+.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-options-item-selected.html">onOptionsItemSelected</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onOptionsItemSelected</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductsActivity$onOptionsItemSelected(android.view.MenuItem)/item">item</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/MenuItem.html"><span class="identifier">MenuItem</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Handles action bar item clicks.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-products-load-fail.html">onProductsLoadFail</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onProductsLoadFail</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>If the products could not be loaded, this method will handle the error.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-products-load-succeed.html">onProductsLoadSucceed</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onProductsLoadSucceed</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductsActivity$onProductsLoadSucceed(kotlin.collections.List((com.example.domain.model.Product)))/products">products</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>When products are loaded, this method will add the products to the product list.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-start.html">onStart</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onStart</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Called when the mainActivity starts.
+Re-populates the RecyclerView.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="populate-recycler-view.html">populateRecyclerView</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">populateRecyclerView</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Populates the RecyclerView with items from the local DataBase.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
