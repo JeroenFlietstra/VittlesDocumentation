@@ -8,7 +8,7 @@
 <a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.mvp</a>&nbsp;/&nbsp;<a href="./index.html">BasePresenter</a><br/>
 <br/>
 <h1>BasePresenter</h1>
-<code><span class="keyword">abstract</span> <span class="keyword">class </span><span class="identifier">BasePresenter</span><span class="symbol">&lt;</span><span class="identifier">V</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">AppCompatActivity</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../-mvp-presenter/index.html"><span class="identifier">MvpPresenter</span></a></code>
+<code><span class="keyword">abstract</span> <span class="keyword">class </span><span class="identifier">BasePresenter</span><span class="symbol">&lt;</span><span class="identifier">V</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">Fragment</span><span class="symbol">&gt;</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../-mvp-presenter/index.html"><span class="identifier">MvpPresenter</span></a></code>
 <p>Superclass of all presenters. This class has properties that will be used in all
 presenters.</p>
 <h3>Parameters</h3>
@@ -92,17 +92,26 @@ presenters.</p>
 <p><a href="../../com.example.vittles.productadd/-add-product-presenter/index.html">AddProductPresenter</a></p>
 </td>
 <td>
-<code><span class="keyword">class </span><span class="identifier">AddProductPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../../com.example.vittles.productadd/-add-product-activity/index.html"><span class="identifier">AddProductActivity</span></a><span class="symbol">&gt;</span></code>
-<p>This is the presenter for the add product activity.</p>
+<code><span class="keyword">class </span><span class="identifier">AddProductPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../../com.example.vittles.productadd/-add-product-fragment/index.html"><span class="identifier">AddProductFragment</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><a href="../../com.example.vittles.productadd/-add-product-contract/-presenter/index.html"><span class="identifier">Presenter</span></a></code>
+<p>This is the presenter for the invoke product activity.</p>
 </td>
 </tr>
 <tr>
 <td>
-<p><a href="../../com.example.vittles.productlist/-products-presenter/index.html">ProductsPresenter</a></p>
+<p><a href="../../com.example.vittles.productlist/-product-list-presenter/index.html">ProductListPresenter</a></p>
 </td>
 <td>
-<code><span class="keyword">class </span><span class="identifier">ProductsPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../../com.example.vittles.productlist/-products-activity/index.html"><span class="identifier">ProductsActivity</span></a><span class="symbol">&gt;</span></code>
+<code><span class="keyword">class </span><span class="identifier">ProductListPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../../com.example.vittles.productlist/-product-list-fragment/index.html"><span class="identifier">ProductListFragment</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><a href="../../com.example.vittles.productlist/-product-list-contract/-presenter/index.html"><span class="identifier">Presenter</span></a></code>
 <p>The presenter for the main product activity.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../../com.example.vittles.scanning/-scanner-presenter/index.html">ScannerPresenter</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ScannerPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="./index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../../com.example.vittles.scanning/-scanner-fragment/index.html"><span class="identifier">ScannerFragment</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><a href="../../com.example.vittles.scanning/-scanner-contract/-presenter/index.html"><span class="identifier">Presenter</span></a></code>
+<p>The presenter for the scanning activity.</p>
 </td>
 </tr>
 </tbody>

@@ -12,6 +12,12 @@
 <p>Binds app-specific data to views that are displayed in the RecyclerView.</p>
 <p><strong>Author</strong><br/>
 Arjen Simons</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<p><strong>Author</strong><br/>
+Fethi Tewelde</p>
+<p><strong>Author</strong><br/>
+Sarah Lange</p>
 <h3>Types</h3>
 <table>
 <tbody>
@@ -34,7 +40,7 @@ Arjen Simons</p>
 <p><a href="-init-.html">&lt;init&gt;</a></p>
 </td>
 <td>
-<code><span class="identifier">ProductAdapter</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<code><span class="identifier">ProductAdapter</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductAdapter$<init>(kotlin.collections.List((com.example.domain.product.Product)), kotlin.Function1((com.example.domain.product.Product, kotlin.Unit)))/initialProducts">initialProducts</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductAdapter$<init>(kotlin.collections.List((com.example.domain.product.Product)), kotlin.Function1((com.example.domain.product.Product, kotlin.Unit)))/clickListener">clickListener</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">Product</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span></code>
 <p>Binds app-specific data to views that are displayed in the RecyclerView.</p>
 </td>
 </tr>
@@ -45,10 +51,26 @@ Arjen Simons</p>
 <tbody>
 <tr>
 <td>
+<p><a href="click-listener.html">clickListener</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">clickListener</span><span class="symbol">: </span><span class="symbol">(</span><span class="identifier">Product</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
 <p><a href="context.html">context</a></p>
 </td>
 <td>
 <code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">context</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="products.html">products</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">products</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span></code>
+<p>The list of products that should be displayed in the RecyclerView.</p>
+</td>
 </tr>
 </tbody>
 </table>

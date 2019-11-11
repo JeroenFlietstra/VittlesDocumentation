@@ -7,3 +7,10 @@ com.example.vittles.enums
 com.example.vittles.mvp
 com.example.vittles.productadd
 com.example.vittles.productlist
+com.example.vittles.reports
+com.example.vittles.scanning
+com.example.vittles.scanning.productaddmanual
+com.example.vittles.services.notification
+com.example.vittles.services.popups
+com.example.vittles.services.scanner
+com.example.vittles.services.sorting

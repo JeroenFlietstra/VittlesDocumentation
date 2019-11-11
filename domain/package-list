@@ -1,7 +1,11 @@
 $dokka.format:html
 $dokka.linkExtension:html
 
-com.example.domain.model
-com.example.domain.productadd
-com.example.domain.productfetch
+com.example.domain.barcode
+com.example.domain.consts
+com.example.domain.enums
+com.example.domain.event
+com.example.domain.exceptions
+com.example.domain.notification
+com.example.domain.product
 com.example.domain.repositories

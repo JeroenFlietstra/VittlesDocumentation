@@ -13,30 +13,20 @@
 <tbody>
 <tr>
 <td>
-<p><a href="-add-product-activity/index.html">AddProductActivity</a></p>
+<p><a href="-add-product-contract/index.html">AddProductContract</a></p>
 </td>
 <td>
-<code><span class="keyword">class </span><span class="identifier">AddProductActivity</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../com.example.vittles.mvp/-base-activity/index.html"><span class="identifier">BaseActivity</span></a></code>
-<p>Activity class for the Add Product component. This components makes it possible to
-create a product manually and insert it into the local database.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p><a href="-add-product-component/index.html">AddProductComponent</a></p>
-</td>
-<td>
-<code><span class="keyword">interface </span><span class="identifier">AddProductComponent</span></code>
-<p>Component for AddProduct injections.</p>
+<code><span class="keyword">interface </span><span class="identifier">AddProductContract</span></code>
+<p>MVP Contract for adding products.</p>
 </td>
 </tr>
 <tr>
 <td>
-<p><a href="-add-product-module/index.html">AddProductModule</a></p>
+<p><a href="-add-product-fragment/index.html">AddProductFragment</a></p>
 </td>
 <td>
-<code><span class="keyword">class </span><span class="identifier">AddProductModule</span></code>
-<p>Module for AddProduct dependency injections.</p>
+<code><span class="keyword">class </span><span class="identifier">AddProductFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerFragment</span><span class="symbol">, </span><a href="-add-product-contract/-view/index.html"><span class="identifier">View</span></a></code>
+<p>Fragment class for the Add Product component.</p>
 </td>
 </tr>
 <tr>
@@ -44,8 +34,8 @@ create a product manually and insert it into the local database.</p>
 <p><a href="-add-product-presenter/index.html">AddProductPresenter</a></p>
 </td>
 <td>
-<code><span class="keyword">class </span><span class="identifier">AddProductPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../com.example.vittles.mvp/-base-presenter/index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="-add-product-activity/index.html"><span class="identifier">AddProductActivity</span></a><span class="symbol">&gt;</span></code>
-<p>This is the presenter for the add product activity.</p>
+<code><span class="keyword">class </span><span class="identifier">AddProductPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../com.example.vittles.mvp/-base-presenter/index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="-add-product-fragment/index.html"><span class="identifier">AddProductFragment</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><a href="-add-product-contract/-presenter/index.html"><span class="identifier">Presenter</span></a></code>
+<p>This is the presenter for the invoke product activity.</p>
 </td>
 </tr>
 </tbody>

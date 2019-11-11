@@ -3,39 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="915d0e7a-87eb-49a0-aa5d-6ad1414fcdcf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/alltypes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/alltypes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/-product/-init-.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/-product/-init-.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/-product/creation-date.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/-product/creation-date.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/-product/expiration-date.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/-product/expiration-date.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/-product/get-days-remaining.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/-product/get-days-remaining.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/-product/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/-product/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/-product/indication-color.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/-product/indication-color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/-product/is-valid-for-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/-product/is-valid-for-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/-product/is-valid-for-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/-product/is-valid-for-edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/-product/product-name.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/-product/product-name.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/-product/uid.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/-product/uid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.model/ms-in-day.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.model/ms-in-day.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.productadd/-add-product-use-case/-init-.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.productadd/-add-product-use-case/-init-.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.productadd/-add-product-use-case/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.productadd/-add-product-use-case/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.productadd/-add-product-use-case/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.productadd/-add-product-use-case/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.productadd/-add-product-use-case/repository.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.productadd/-add-product-use-case/repository.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.productadd/-add-product-use-case/validate.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.productadd/-add-product-use-case/validate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.productadd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.productadd/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.productfetch/-fetch-products-use-case/-init-.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.productfetch/-fetch-products-use-case/-init-.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.productfetch/-fetch-products-use-case/fetch.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.productfetch/-fetch-products-use-case/fetch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.productfetch/-fetch-products-use-case/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.productfetch/-fetch-products-use-case/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.productfetch/-fetch-products-use-case/repository.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.productfetch/-fetch-products-use-case/repository.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.productfetch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.productfetch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain/-product-dao.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain/-product-dao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain/-products-repository/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain/-products-repository/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain/-products-repository/get.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain/-products-repository/get.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain/-products-repository/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain/-products-repository/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain/-products-repository/patch.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain/-products-repository/patch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain/-products-repository/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain/-products-repository/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -65,6 +32,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/data/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -82,16 +50,14 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,6 +79,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570022019356</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update KDOC">
+      <created>1570025367451</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570025367451</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -249,7 +224,8 @@
     <MESSAGE value="Included private methods documentation." />
     <MESSAGE value="Update with architecture" />
     <MESSAGE value="Update index html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update index html" />
+    <MESSAGE value="Update KDOC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update KDOC" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/index.html">
@@ -262,22 +238,22 @@
     <entry file="file://$PROJECT_DIR$/app/com.example.vittles/-add-product-activity/init-views.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3213" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

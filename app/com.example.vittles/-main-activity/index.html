@@ -9,13 +9,11 @@
 <br/>
 <h1>MainActivity</h1>
 <code><span class="keyword">class </span><span class="identifier">MainActivity</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">AppCompatActivity</span></code>
-<p>Activity class for the main activity. This is the activity that shows the list of products.</p>
-<p><strong>Author</strong><br/>
-Arjen Simons</p>
+<p>Main activity that only controls the navigation.</p>
 <p><strong>Author</strong><br/>
 Jeroen Flietstra</p>
 <p><strong>Author</strong><br/>
-Jan-Willem van Bremen</p>
+Fethi Tewelde</p>
 <h3>Constructors</h3>
 <table>
 <tbody>
@@ -25,7 +23,7 @@ Jan-Willem van Bremen</p>
 </td>
 <td>
 <code><span class="identifier">MainActivity</span><span class="symbol">(</span><span class="symbol">)</span></code>
-<p>Activity class for the main activity. This is the activity that shows the list of products.</p>
+<p>Main activity that only controls the navigation.</p>
 </td>
 </tr>
 </tbody>
@@ -35,24 +33,10 @@ Jan-Willem van Bremen</p>
 <tbody>
 <tr>
 <td>
-<p><a href="product-adapter.html">productAdapter</a></p>
+<p><a href="nav-controller.html">navController</a></p>
 </td>
 <td>
-<code><span class="keyword">val </span><span class="identifier">productAdapter</span><span class="symbol">: </span><a href="../-product-adapter/index.html"><span class="identifier">ProductAdapter</span></a></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="product-dao.html">productDao</a></p>
-</td>
-<td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">productDao</span><span class="symbol">: </span><a href="../../com.example.vittles.data/-product-dao/index.html"><span class="identifier">ProductDao</span></a></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="products.html">products</a></p>
-</td>
-<td>
-<code><span class="keyword">var </span><span class="identifier">products</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><a href="../../com.example.vittles.model/-product/index.html"><span class="identifier">Product</span></a><span class="symbol">&gt;</span></code></td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">navController</span><span class="symbol">: </span><span class="identifier">NavController</span></code></td>
 </tr>
 </tbody>
 </table>
@@ -61,11 +45,20 @@ Jan-Willem van Bremen</p>
 <tbody>
 <tr>
 <td>
+<p><a href="init-navigation.html">initNavigation</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">initNavigation</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Initializes the bottom navigation.</p>
+</td>
+</tr>
+<tr>
+<td>
 <p><a href="init-views.html">initViews</a></p>
 </td>
 <td>
 <code><span class="keyword">fun </span><span class="identifier">initViews</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
-<p>Initializes the RecyclerView.</p>
+<p>Initializes the view elements.</p>
 </td>
 </tr>
 <tr>
@@ -80,49 +73,61 @@ It starts the addProduct activity.</p>
 </tr>
 <tr>
 <td>
+<p><a href="on-back-pressed.html">onBackPressed</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onBackPressed</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
 <p><a href="on-create.html">onCreate</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">onCreate</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.MainActivity$onCreate(android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
-<p>Called when the MainActivity is created.</p>
+<code><span class="keyword">fun </span><span class="identifier">onCreate</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.MainActivity$onCreate(android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-navigate-home-button-click.html">onNavigateHomeButtonClick</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onNavigateHomeButtonClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Navigate to the ProductListFragment.</p>
 </td>
 </tr>
 <tr>
 <td>
-<p><a href="on-create-options-menu.html">onCreateOptionsMenu</a></p>
+<p><a href="on-navigate-reports-button-click.html">onNavigateReportsButtonClick</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">onCreateOptionsMenu</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.MainActivity$onCreateOptionsMenu(android.view.Menu)/menu">menu</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/Menu.html"><span class="identifier">Menu</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
-<p>Called when the option menu is created.
-.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p><a href="on-options-item-selected.html">onOptionsItemSelected</a></p>
-</td>
-<td>
-<code><span class="keyword">fun </span><span class="identifier">onOptionsItemSelected</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.MainActivity$onOptionsItemSelected(android.view.MenuItem)/item">item</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/MenuItem.html"><span class="identifier">MenuItem</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
-<p>Handles action bar item clicks.</p>
+<code><span class="keyword">fun </span><span class="identifier">onNavigateReportsButtonClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Navigate to the ReportsFragment.</p>
 </td>
 </tr>
 <tr>
 <td>
-<p><a href="on-start.html">onStart</a></p>
+<p><a href="on-navigate-search-button-click.html">onNavigateSearchButtonClick</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">onStart</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
-<p>Called when the mainActivity starts.
-Re-populates the RecyclerView.</p>
+<code><span class="keyword">fun </span><span class="identifier">onNavigateSearchButtonClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Navigate to the ProductListFragment with the search bar opened.</p>
 </td>
 </tr>
 <tr>
 <td>
-<p><a href="populate-recycler-view.html">populateRecyclerView</a></p>
+<p><a href="set-listeners.html">setListeners</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">populateRecyclerView</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
-<p>Populates the RecyclerView with items from the local DataBase.</p>
+<code><span class="keyword">fun </span><span class="identifier">setListeners</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets all necessary event listeners on UI elements.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="show-bottom-navigation-bar.html">showBottomNavigationBar</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">showBottomNavigationBar</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.MainActivity$showBottomNavigationBar(kotlin.Boolean, kotlin.Boolean)/barVisibility">barVisibility</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.MainActivity$showBottomNavigationBar(kotlin.Boolean, kotlin.Boolean)/fabVisibility">fabVisibility</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Will hide/show the navigation bar and/or the floating action button.</p>
 </td>
 </tr>
 </tbody>

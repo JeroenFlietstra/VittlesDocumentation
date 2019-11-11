@@ -10,67 +10,35 @@
 <tbody>
 <tr>
 <td>
-<a href="../com.example.vittles.productadd/-add-product-activity/index.html">com.example.vittles.productadd.AddProductActivity</a></td>
+<a href="../com.example.vittles.productadd/-add-product-contract/index.html">com.example.vittles.productadd.AddProductContract</a></td>
 <td>
-<p>Activity class for the Add Product component. This components makes it possible to
-create a product manually and insert it into the local database.</p>
+<p>MVP Contract for adding products.</p>
 </td>
 </tr>
 <tr>
 <td>
-<a href="../com.example.vittles.productadd/-add-product-component/index.html">com.example.vittles.productadd.AddProductComponent</a></td>
+<a href="../com.example.vittles.productadd/-add-product-fragment/index.html">com.example.vittles.productadd.AddProductFragment</a></td>
 <td>
-<p>Component for AddProduct injections.</p>
-</td>
-</tr>
-<tr>
-<td>
-<a href="../com.example.vittles.productadd/-add-product-module/index.html">com.example.vittles.productadd.AddProductModule</a></td>
-<td>
-<p>Module for AddProduct dependency injections.</p>
+<p>Fragment class for the Add Product component.</p>
 </td>
 </tr>
 <tr>
 <td>
 <a href="../com.example.vittles.productadd/-add-product-presenter/index.html">com.example.vittles.productadd.AddProductPresenter</a></td>
 <td>
-<p>This is the presenter for the add product activity.</p>
+<p>This is the presenter for the invoke product activity.</p>
 </td>
 </tr>
 <tr>
 <td>
 <a href="../com.example.vittles.di/-app-component/index.html">com.example.vittles.di.AppComponent</a></td>
 <td>
-<p>Main app component which will make it possible to build other components.</p>
-</td>
-</tr>
-<tr>
-<td>
-<a href="../com.example.vittles.di/-app-db-module/index.html">com.example.vittles.di.AppDbModule</a></td>
-<td>
-<p>Main database module for dependency injections.</p>
 </td>
 </tr>
 <tr>
 <td>
 <a href="../com.example.vittles.di/-app-module/index.html">com.example.vittles.di.AppModule</a></td>
 <td>
-<p>Main application module for dependency injections.</p>
-</td>
-</tr>
-<tr>
-<td>
-<a href="../com.example.vittles.di/-application-scope/index.html">com.example.vittles.di.ApplicationScope</a></td>
-<td>
-<p>Scope used for application feature components. This scope is needed for the Dagger framework,
-otherwise it cannot generate the needed builds and will conflict the build.</p>
-</td>
-</tr>
-<tr>
-<td>
-<a href="../com.example.vittles.mvp/-base-activity/index.html">com.example.vittles.mvp.BaseActivity</a></td>
-<td>
-<p>Abstract superclass for all activities.</p>
 </td>
 </tr>
 <tr>
@@ -83,8 +51,48 @@ presenters.</p>
 </tr>
 <tr>
 <td>
-<a href="../com.example.vittles/-globals/index.html">com.example.vittles.Globals</a></td>
+<a href="../com.example.vittles.di/-bindings-module/index.html">com.example.vittles.di.BindingsModule</a></td>
 <td>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.di/-data-module/index.html">com.example.vittles.di.DataModule</a></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.scanning.productaddmanual/-date-edit-view/index.html">com.example.vittles.scanning.productaddmanual.DateEditView</a></td>
+<td>
+<p>Dialog for editing the expiration date.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.services.scanner/-date-formatter-service/index.html">com.example.vittles.services.scanner.DateFormatterService</a></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.enums/-delete-type/index.html">com.example.vittles.enums.DeleteType</a></td>
+<td>
+<p>Enumerator that holds the way items can be deleted</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.services.popups/-i-popup-base/index.html">com.example.vittles.services.popups.IPopupBase</a></td>
+<td>
+<p>The interface for the base of each popup.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.services.popups/-i-popup-button/index.html">com.example.vittles.services.popups.IPopupButton</a></td>
+<td>
+<p>The interface for the button on a popup.</p>
 </td>
 </tr>
 <tr>
@@ -96,9 +104,58 @@ presenters.</p>
 </tr>
 <tr>
 <td>
+<a href="../com.example.vittles/-main-activity/index.html">com.example.vittles.MainActivity</a></td>
+<td>
+<p>Main activity that only controls the navigation.</p>
+</td>
+</tr>
+<tr>
+<td>
 <a href="../com.example.vittles.mvp/-mvp-presenter/index.html">com.example.vittles.mvp.MvpPresenter</a></td>
 <td>
 <p>Interface of the BasePresenter.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.services.notification/-notification-schedule-service/index.html">com.example.vittles.services.notification.NotificationScheduleService</a></td>
+<td>
+<p>Background scheduler for the notification service.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.services.notification/-notification-service/index.html">com.example.vittles.services.notification.NotificationService</a></td>
+<td>
+<p>Creates a notification Channel and Notifications</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.services.popups/-popup-base/index.html">com.example.vittles.services.popups.PopupBase</a></td>
+<td>
+<p>The basePopup implementation.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.services.popups/-popup-button/index.html">com.example.vittles.services.popups.PopupButton</a></td>
+<td>
+<p>The popupButton implementation.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.services.popups/-popup-manager/index.html">com.example.vittles.services.popups.PopupManager</a></td>
+<td>
+<p>This class is used to show custom popups.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.scanning/-preview-analyzer/index.html">com.example.vittles.scanning.PreviewAnalyzer</a></td>
+<td>
+<p>Analyzer used by CameraX to analyze frames from the camera preview.</p>
 </td>
 </tr>
 <tr>
@@ -110,36 +167,92 @@ presenters.</p>
 </tr>
 <tr>
 <td>
-<a href="../com.example.vittles.productlist/-products-activity/index.html">com.example.vittles.productlist.ProductsActivity</a></td>
+<a href="../com.example.vittles.productlist/-product-item-touch-helper/index.html">com.example.vittles.productlist.ProductItemTouchHelper</a></td>
 <td>
-<p>Activity class for the main activity. This is the activity that shows the list of products.</p>
+<p>Creates an ItemTouchHelper and defines what happens on swiping.</p>
 </td>
 </tr>
 <tr>
 <td>
-<a href="../com.example.vittles.productlist/-products-component/index.html">com.example.vittles.productlist.ProductsComponent</a></td>
+<a href="../com.example.vittles.productlist/-product-list-contract/index.html">com.example.vittles.productlist.ProductListContract</a></td>
 <td>
-<p>Component for main product injections.</p>
+<p>MVP Contract for products overview.</p>
 </td>
 </tr>
 <tr>
 <td>
-<a href="../com.example.vittles.productlist/-products-module/index.html">com.example.vittles.productlist.ProductsModule</a></td>
+<a href="../com.example.vittles.productlist/-product-list-fragment/index.html">com.example.vittles.productlist.ProductListFragment</a></td>
 <td>
-<p>Module for main product dependency injections.</p>
+<p>Fragment class for the main activity. This is the fragment that shows the list of products.</p>
 </td>
 </tr>
 <tr>
 <td>
-<a href="../com.example.vittles.productlist/-products-presenter/index.html">com.example.vittles.productlist.ProductsPresenter</a></td>
+<a href="../com.example.vittles.productlist/-product-list-presenter/index.html">com.example.vittles.productlist.ProductListPresenter</a></td>
 <td>
 <p>The presenter for the main product activity.</p>
 </td>
 </tr>
 <tr>
 <td>
+<a href="../com.example.vittles.scanning.productaddmanual/-product-name-edit-view/index.html">com.example.vittles.scanning.productaddmanual.ProductNameEditView</a></td>
+<td>
+<p>Dialog for editing the product name.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.reports/-reports-fragment/index.html">com.example.vittles.reports.ReportsFragment</a></td>
+<td>
+<p>A simple <a href="#">Fragment</a> subclass.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.scanning/-scan-result/index.html">com.example.vittles.scanning.ScanResult</a></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.scanning/-scanner-contract/index.html">com.example.vittles.scanning.ScannerContract</a></td>
+<td>
+<p>MVP Contract for scanning products.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.scanning/-scanner-fragment/index.html">com.example.vittles.scanning.ScannerFragment</a></td>
+<td>
+<p>The scanner fragment that displays the camera preview with the checklist.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.scanning/-scanner-presenter/index.html">com.example.vittles.scanning.ScannerPresenter</a></td>
+<td>
+<p>The presenter for the scanning activity.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.services.scanner/-scanning-service/index.html">com.example.vittles.services.scanner.ScanningService</a></td>
+<td>
+<p>Service for scanning barcodes and recognizing text.</p>
+</td>
+</tr>
+<tr>
+<td>
+<a href="../com.example.vittles.services.sorting/-sort-menu/index.html">com.example.vittles.services.sorting.SortMenu</a></td>
+<td>
+<p>Class for the sorting Menu, This menu shows all the sorting types and the current sorting type.</p>
+</td>
+</tr>
+<tr>
+<td>
 <a href="../com.example.vittles/-vittles-app/index.html">com.example.vittles.VittlesApp</a></td>
 <td>
+<p>Startup class.</p>
 </td>
 </tr>
 </tbody>

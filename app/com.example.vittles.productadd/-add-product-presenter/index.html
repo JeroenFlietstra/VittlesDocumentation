@@ -8,8 +8,8 @@
 <a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.productadd</a>&nbsp;/&nbsp;<a href="./index.html">AddProductPresenter</a><br/>
 <br/>
 <h1>AddProductPresenter</h1>
-<code><span class="keyword">class </span><span class="identifier">AddProductPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.mvp/-base-presenter/index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../-add-product-activity/index.html"><span class="identifier">AddProductActivity</span></a><span class="symbol">&gt;</span></code>
-<p>This is the presenter for the add product activity.</p>
+<code><span class="keyword">class </span><span class="identifier">AddProductPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.mvp/-base-presenter/index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../-add-product-fragment/index.html"><span class="identifier">AddProductFragment</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><a href="../-add-product-contract/-presenter/index.html"><span class="identifier">Presenter</span></a></code>
+<p>This is the presenter for the invoke product activity.</p>
 <p><strong>Author</strong><br/>
 Jeroen Flietstra</p>
 <p><strong>Author</strong><br/>
@@ -22,8 +22,8 @@ Arjen Simons</p>
 <p><a href="-init-.html">&lt;init&gt;</a></p>
 </td>
 <td>
-<code><span class="keyword">internal</span> <span class="identifier">AddProductPresenter</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productadd.AddProductPresenter$<init>(com.example.domain.productadd.AddProductUseCase)/addProductUseCase">addProductUseCase</span><span class="symbol">:</span>&nbsp;<span class="identifier">AddProductUseCase</span><span class="symbol">)</span></code>
-<p>This is the presenter for the add product activity.</p>
+<code><span class="keyword">internal</span> <span class="identifier">AddProductPresenter</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productadd.AddProductPresenter$<init>(com.example.domain.product.AddProduct)/addProduct">addProduct</span><span class="symbol">:</span>&nbsp;<span class="identifier">AddProduct</span><span class="symbol">)</span></code>
+<p>This is the presenter for the invoke product activity.</p>
 </td>
 </tr>
 </tbody>
@@ -33,11 +33,11 @@ Arjen Simons</p>
 <tbody>
 <tr>
 <td>
-<p><a href="add-product-use-case.html">addProductUseCase</a></p>
+<p><a href="add-product.html">addProduct</a></p>
 </td>
 <td>
-<code><span class="keyword">val </span><span class="identifier">addProductUseCase</span><span class="symbol">: </span><span class="identifier">AddProductUseCase</span></code>
-<p>The AddProductUseCase from the domain module.</p>
+<code><span class="keyword">val </span><span class="identifier">addProduct</span><span class="symbol">: </span><span class="identifier">AddProduct</span></code>
+<p>The AddProduct from the domain module.</p>
 </td>
 </tr>
 </tbody>
@@ -69,7 +69,7 @@ Arjen Simons</p>
 <p><a href="add-product.html">addProduct</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">addProduct</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productadd.AddProductPresenter$addProduct(com.example.domain.model.Product)/product">product</span><span class="symbol">:</span>&nbsp;<span class="identifier">Product</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<code><span class="keyword">fun </span><span class="identifier">addProduct</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productadd.AddProductPresenter$addProduct(com.example.domain.product.Product, kotlin.Boolean)/product">product</span><span class="symbol">:</span>&nbsp;<span class="identifier">Product</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productadd.AddProductPresenter$addProduct(com.example.domain.product.Product, kotlin.Boolean)/checkDate">checkDate</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
 <p>Method used to add a product.</p>
 </td>
 </tr>

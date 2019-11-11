@@ -2,3 +2,6 @@ $dokka.format:html
 $dokka.linkExtension:html
 
 com.example.data
+com.example.data.retrofit
+com.example.data.retrofit.tesco
+com.example.data.room
