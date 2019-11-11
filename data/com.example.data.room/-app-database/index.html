@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>AppDatabase - data</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">data</a>&nbsp;/&nbsp;<a href="../index.html">com.example.data.room</a>&nbsp;/&nbsp;<a href="./index.html">AppDatabase</a><br/>
+<br/>
+<h1>AppDatabase</h1>
+<code><span class="keyword">abstract</span> <span class="keyword">class </span><span class="identifier">AppDatabase</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">RoomDatabase</span></code>
+<p>Room database singleton implementation. Used for CRUD in the database. Use the
+getDatabase method to retrieve the singleton instance to select the needed dao.</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<p><strong>Author</strong><br/>
+Jan-Willem van Bremen</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">AppDatabase</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>Room database singleton implementation. Used for CRUD in the database. Use the
+getDatabase method to retrieve the singleton instance to select the needed dao.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="product-dao.html">productDao</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">productDao</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="../-product-dao/index.html"><span class="identifier">ProductDao</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-i-n-s-t-a-n-c-e.html">INSTANCE</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">INSTANCE</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">AppDatabase</span></a><span class="symbol">?</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get-database.html">getDatabase</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getDatabase</span><span class="symbol">(</span><span class="identifier" id="com.example.data.room.AppDatabase.Companion$getDatabase(android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">AppDatabase</span></a></code>
+<p>If instance is not created, creates a new database instance. Otherwise it will
+return the existing instance.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

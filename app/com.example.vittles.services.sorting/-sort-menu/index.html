@@ -1,0 +1,171 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>SortMenu - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.services.sorting</a>&nbsp;/&nbsp;<a href="./index.html">SortMenu</a><br/>
+<br/>
+<h1>SortMenu</h1>
+<code><span class="keyword">class </span><span class="identifier">SortMenu</span></code>
+<p>Class for the sorting Menu, This menu shows all the sorting types and the current sorting type.</p>
+<p><strong>Author</strong><br/>
+Marc van Spronsen</p>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-sorting-type/index.html">SortingType</a></p>
+</td>
+<td>
+<code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">SortingType</span></code>
+<p>Sets enums for all of the different sorting options</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">SortMenu</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.sorting.SortMenu$<init>(kotlin.collections.MutableList((com.example.domain.product.Product)), com.example.vittles.productlist.ProductAdapter)/sortList">sortList</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.sorting.SortMenu$<init>(kotlin.collections.MutableList((com.example.domain.product.Product)), com.example.vittles.productlist.ProductAdapter)/adapter">adapter</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.productlist/-product-adapter/index.html"><span class="identifier">ProductAdapter</span></a><span class="symbol">)</span></code>
+<p>Class for the sorting Menu, This menu shows all the sorting types and the current sorting type.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="adapter.html">adapter</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">adapter</span><span class="symbol">: </span><a href="../../com.example.vittles.productlist/-product-adapter/index.html"><span class="identifier">ProductAdapter</span></a></code>
+<p>the adapter for the list that should be sorted.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="alert-dialog.html">alertDialog</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">alertDialog</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/app/AlertDialog.html"><span class="identifier">AlertDialog</span></a></code>
+<p>The entire alertDialog of the sortMenu.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="btn-sort.html">btnSort</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">btnSort</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/TextView.html"><span class="identifier">TextView</span></a></code>
+<p>The button which shows the current sortingType.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="current-sorting-type.html">currentSortingType</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">currentSortingType</span><span class="symbol">: </span><a href="-sorting-type/index.html"><span class="identifier">SortingType</span></a></code>
+<p>The current sorting type that is used.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="previous-sorting-type.html">previousSortingType</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">previousSortingType</span><span class="symbol">: </span><a href="-sorting-type/index.html"><span class="identifier">SortingType</span></a></code>
+<p>The previous sorting type that was used.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="sort-list.html">sortList</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">sortList</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span></code>
+<p>The list that should be sorted.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="view.html">view</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">view</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a></code>
+<p>The View which holds the sortingMenu.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="on-sort-click.html">onSortClick</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onSortClick</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.sorting.SortMenu$onSortClick(com.example.vittles.services.sorting.SortMenu.SortingType, kotlin.collections.MutableList((com.example.domain.product.Product)))/sortingType">sortingType</span><span class="symbol">:</span>&nbsp;<a href="-sorting-type/index.html"><span class="identifier">SortingType</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.sorting.SortMenu$onSortClick(com.example.vittles.services.sorting.SortMenu.SortingType, kotlin.collections.MutableList((com.example.domain.product.Product)))/sortList">sortList</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Handles all actions that happen when a button is clicked</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="open-menu.html">openMenu</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">openMenu</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.sorting.SortMenu$openMenu(android.content.Context, android.widget.TextView, kotlin.collections.MutableList((com.example.domain.product.Product)))/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.sorting.SortMenu$openMenu(android.content.Context, android.widget.TextView, kotlin.collections.MutableList((com.example.domain.product.Product)))/button">button</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/widget/TextView.html"><span class="identifier">TextView</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.sorting.SortMenu$openMenu(android.content.Context, android.widget.TextView, kotlin.collections.MutableList((com.example.domain.product.Product)))/filteredList">filteredList</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Inflates the sortingMenu.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-circle-color.html">setCircleColor</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setCircleColor</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets the circle alpha to 1 of the selected sorting method.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-listeners.html">setListeners</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setListeners</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets all the onClickListeners</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-sortbtn-text.html">setSortbtnText</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setSortbtnText</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.sorting.SortMenu$setSortbtnText(com.example.vittles.services.sorting.SortMenu.SortingType)/sortingType">sortingType</span><span class="symbol">:</span>&nbsp;<a href="-sorting-type/index.html"><span class="identifier">SortingType</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets the buttonText to the current sorting method.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="sort-filtered-list.html">sortFilteredList</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">sortFilteredList</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.sorting.SortMenu$sortFilteredList(kotlin.collections.MutableList((com.example.domain.product.Product)))/sortList">sortList</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Called when text is entered in the search view.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

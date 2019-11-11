@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ProductListContract.Presenter - app</title>
+<link rel="stylesheet" href="../../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../../index.html">app</a>&nbsp;/&nbsp;<a href="../../index.html">com.example.vittles.productlist</a>&nbsp;/&nbsp;<a href="../index.html">ProductListContract</a>&nbsp;/&nbsp;<a href="./index.html">Presenter</a><br/>
+<br/>
+<h1>Presenter</h1>
+<code><span class="keyword">interface </span><span class="identifier">Presenter</span></code>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="delete-product.html">deleteProduct</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">deleteProduct</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductListContract.Presenter$deleteProduct(com.example.domain.product.Product, com.example.vittles.enums.DeleteType)/product">product</span><span class="symbol">:</span>&nbsp;<span class="identifier">Product</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductListContract.Presenter$deleteProduct(com.example.domain.product.Product, com.example.vittles.enums.DeleteType)/deleteType">deleteType</span><span class="symbol">:</span>&nbsp;<a href="../../../com.example.vittles.enums/-delete-type/index.html"><span class="identifier">DeleteType</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="load-indication-colors.html">loadIndicationColors</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">loadIndicationColors</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductListContract.Presenter$loadIndicationColors(kotlin.collections.List((com.example.domain.product.Product)))/products">products</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="start-presenting.html">startPresenting</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">startPresenting</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../-product-list-presenter/index.html">ProductListPresenter</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ProductListPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../../../com.example.vittles.mvp/-base-presenter/index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../../-product-list-fragment/index.html"><span class="identifier">ProductListFragment</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><a href="./index.html"><span class="identifier">Presenter</span></a></code>
+<p>The presenter for the main product activity.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

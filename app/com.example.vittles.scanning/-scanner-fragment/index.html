@@ -1,0 +1,239 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ScannerFragment - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.scanning</a>&nbsp;/&nbsp;<a href="./index.html">ScannerFragment</a><br/>
+<br/>
+<h1>ScannerFragment</h1>
+<code><span class="keyword">class </span><span class="identifier">ScannerFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerFragment</span><span class="symbol">, </span><a href="../-scanner-contract/-view/index.html"><span class="identifier">View</span></a></code>
+<p>The scanner fragment that displays the camera preview with the checklist.</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="keyword">internal</span> <span class="identifier">ScannerFragment</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>The scanner fragment that displays the camera preview with the checklist.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="btn-scan-vittle.html">btnScanVittle</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">btnScanVittle</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/Button.html"><span class="identifier">Button</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="expiration-date.html">expirationDate</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">expirationDate</span><span class="symbol">: </span><span class="identifier">DateTime</span><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="ib-edit-date.html">ibEditDate</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">ibEditDate</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/ImageButton.html"><span class="identifier">ImageButton</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="ib-edit-name.html">ibEditName</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">ibEditName</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/ImageButton.html"><span class="identifier">ImageButton</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="iv-checkbox-barcode.html">ivCheckboxBarcode</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">ivCheckboxBarcode</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/ImageView.html"><span class="identifier">ImageView</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="iv-checkbox-expiration-date.html">ivCheckboxExpirationDate</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">ivCheckboxExpirationDate</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/ImageView.html"><span class="identifier">ImageView</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="presenter.html">presenter</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">presenter</span><span class="symbol">: </span><a href="../-scanner-presenter/index.html"><span class="identifier">ScannerPresenter</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="refresh-date.html">refreshDate</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">refreshDate</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/ImageButton.html"><span class="identifier">ImageButton</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="refresh-product-name.html">refreshProductName</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">refreshProductName</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/ImageButton.html"><span class="identifier">ImageButton</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="texture-view.html">textureView</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">textureView</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/view/TextureView.html"><span class="identifier">TextureView</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="tv-barcode.html">tvBarcode</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">tvBarcode</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/TextView.html"><span class="identifier">TextView</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="tv-expiration-date.html">tvExpirationDate</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">tvExpirationDate</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/TextView.html"><span class="identifier">TextView</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="init-views.html">initViews</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">initViews</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Initializes view elements.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-add-vittle-button-click.html">onAddVittleButtonClick</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onAddVittleButtonClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Return the scanned barcode and expiration date.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-barcode-not-found.html">onBarcodeNotFound</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onBarcodeNotFound</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>When error occurs with barcode show toast with error message.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-barcode-scanned.html">onBarcodeScanned</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onBarcodeScanned</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerFragment$onBarcodeScanned(kotlin.String)/barcode">barcode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Handles interface actions once the barcode has been successfully scanned.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-create-view.html">onCreateView</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onCreateView</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/inflater">inflater</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/LayoutInflater.html"><span class="identifier">LayoutInflater</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.ScannerFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/container">container</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/ViewGroup.html"><span class="identifier">ViewGroup</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.ScannerFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">?</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-destroy.html">onDestroy</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onDestroy</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-edit-expiration-button-click.html">onEditExpirationButtonClick</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onEditExpirationButtonClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-edit-name-button-click.html">onEditNameButtonClick</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onEditNameButtonClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-no-permission-granted.html">onNoPermissionGranted</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onNoPermissionGranted</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>If no permissions granted, show toast with error message.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-request-permissions-from-fragment.html">onRequestPermissionsFromFragment</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onRequestPermissionsFromFragment</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-request-permissions-result.html">onRequestPermissionsResult</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onRequestPermissionsResult</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerFragment$onRequestPermissionsResult(kotlin.Int, kotlin.Array((kotlin.String)), kotlin.IntArray)/requestCode">requestCode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.ScannerFragment$onRequestPermissionsResult(kotlin.Int, kotlin.Array((kotlin.String)), kotlin.IntArray)/permissions">permissions</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html"><span class="identifier">Array</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.ScannerFragment$onRequestPermissionsResult(kotlin.Int, kotlin.Array((kotlin.String)), kotlin.IntArray)/grantResults">grantResults</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int-array/index.html"><span class="identifier">IntArray</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Process result from permission request dialog box, has the request
+been granted? If yes, start Camera. Otherwise display a toast</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-text-not-found.html">onTextNotFound</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onTextNotFound</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>When error occurs with text recognition show toast with error message.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-text-scanned.html">onTextScanned</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onTextScanned</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerFragment$onTextScanned(kotlin.String)/text">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Handles interface actions once the expirationDate has been successfully scanned</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-view-created.html">onViewCreated</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onViewCreated</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerFragment$onViewCreated(android.view.View, android.os.Bundle)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.ScannerFragment$onViewCreated(android.view.View, android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
