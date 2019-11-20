@@ -11,12 +11,12 @@
 <code><span class="keyword">class </span><span class="identifier">ProductItemTouchHelper</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">Callback</span></code>
 <p>Creates an ItemTouchHelper and defines what happens on swiping.</p>
 <h3>Parameters</h3>
-<p><a name="initialProducts"></a>
-<code>initialProducts</code> - The List of products from the recycler View.</p>
-<p><a name="initialPresenter"></a>
-<code>initialPresenter</code> - The presenter what presents the product.</p>
+<p><a name="products"></a>
+<code>products</code> - The List of products from the recycler View.</p>
 <p><a name="context"></a>
 <code>context</code> - Application Context.</p>
+<p><a name="safeDelete"></a>
+<code>safeDelete</code> - Safe delete method callback.</p>
 <p><strong>Author</strong><br/>
 Sarah Lange</p>
 <h3>Types</h3>
@@ -28,7 +28,7 @@ Sarah Lange</p>
 </td>
 <td>
 <code><span class="keyword">enum</span> <span class="keyword">class </span><span class="identifier">IconLocation</span></code>
-<p>Enum to determain where the swipe icon should be located.</p>
+<p>Enum to determine where the swipe icon should be located.</p>
 </td>
 </tr>
 </tbody>
@@ -41,7 +41,7 @@ Sarah Lange</p>
 <p><a href="-init-.html">&lt;init&gt;</a></p>
 </td>
 <td>
-<code><span class="identifier">ProductItemTouchHelper</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductItemTouchHelper$<init>(kotlin.collections.List((com.example.domain.product.Product)), com.example.vittles.productlist.ProductListPresenter, android.content.Context, kotlin.Function2((com.example.domain.product.Product, com.example.vittles.enums.DeleteType, kotlin.Unit)))/initialProducts">initialProducts</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductItemTouchHelper$<init>(kotlin.collections.List((com.example.domain.product.Product)), com.example.vittles.productlist.ProductListPresenter, android.content.Context, kotlin.Function2((com.example.domain.product.Product, com.example.vittles.enums.DeleteType, kotlin.Unit)))/initialPresenter">initialPresenter</span><span class="symbol">:</span>&nbsp;<a href="../-product-list-presenter/index.html"><span class="identifier">ProductListPresenter</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductItemTouchHelper$<init>(kotlin.collections.List((com.example.domain.product.Product)), com.example.vittles.productlist.ProductListPresenter, android.content.Context, kotlin.Function2((com.example.domain.product.Product, com.example.vittles.enums.DeleteType, kotlin.Unit)))/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductItemTouchHelper$<init>(kotlin.collections.List((com.example.domain.product.Product)), com.example.vittles.productlist.ProductListPresenter, android.content.Context, kotlin.Function2((com.example.domain.product.Product, com.example.vittles.enums.DeleteType, kotlin.Unit)))/saveDelete">saveDelete</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">Product</span><span class="symbol">,</span>&nbsp;<a href="../../com.example.vittles.enums/-delete-type/index.html"><span class="identifier">DeleteType</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span></code>
+<code><span class="identifier">ProductItemTouchHelper</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductItemTouchHelper$<init>(kotlin.collections.List((com.example.domain.product.Product)), android.content.Context, kotlin.Function2((com.example.domain.product.Product, com.example.vittles.enums.DeleteType, kotlin.Unit)))/products">products</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductItemTouchHelper$<init>(kotlin.collections.List((com.example.domain.product.Product)), android.content.Context, kotlin.Function2((com.example.domain.product.Product, com.example.vittles.enums.DeleteType, kotlin.Unit)))/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductItemTouchHelper$<init>(kotlin.collections.List((com.example.domain.product.Product)), android.content.Context, kotlin.Function2((com.example.domain.product.Product, com.example.vittles.enums.DeleteType, kotlin.Unit)))/safeDelete">safeDelete</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">Product</span><span class="symbol">,</span>&nbsp;<a href="../../com.example.vittles.enums/-delete-type/index.html"><span class="identifier">DeleteType</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span></code>
 <p>Creates an ItemTouchHelper and defines what happens on swiping.</p>
 </td>
 </tr>
@@ -61,24 +61,21 @@ Sarah Lange</p>
 </tr>
 <tr>
 <td>
-<p><a href="presenter.html">presenter</a></p>
-</td>
-<td>
-<code><span class="keyword">var </span><span class="identifier">presenter</span><span class="symbol">: </span><a href="../-product-list-presenter/index.html"><span class="identifier">ProductListPresenter</span></a></code></td>
-</tr>
-<tr>
-<td>
 <p><a href="products.html">products</a></p>
 </td>
 <td>
-<code><span class="keyword">var </span><span class="identifier">products</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span></code></td>
+<code><span class="keyword">val </span><span class="identifier">products</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span></code>
+<p>The List of products from the recycler View.</p>
+</td>
 </tr>
 <tr>
 <td>
-<p><a href="save-delete.html">saveDelete</a></p>
+<p><a href="safe-delete.html">safeDelete</a></p>
 </td>
 <td>
-<code><span class="keyword">val </span><span class="identifier">saveDelete</span><span class="symbol">: </span><span class="symbol">(</span><span class="identifier">Product</span><span class="symbol">,</span>&nbsp;<a href="../../com.example.vittles.enums/-delete-type/index.html"><span class="identifier">DeleteType</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">val </span><span class="identifier">safeDelete</span><span class="symbol">: </span><span class="symbol">(</span><span class="identifier">Product</span><span class="symbol">,</span>&nbsp;<a href="../../com.example.vittles.enums/-delete-type/index.html"><span class="identifier">DeleteType</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Safe delete method callback.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -137,6 +134,15 @@ Sarah Lange</p>
 <td>
 <code><span class="keyword">fun </span><span class="identifier">onSwiped</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductItemTouchHelper$onSwiped(androidx.recyclerview.widget.RecyclerView.ViewHolder, kotlin.Int)/viewHolder">viewHolder</span><span class="symbol">:</span>&nbsp;<span class="identifier">ViewHolder</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductItemTouchHelper$onSwiped(androidx.recyclerview.widget.RecyclerView.ViewHolder, kotlin.Int)/direction">direction</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
 <p>Called when a ViewHolder is swiped by the user.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="remove-decorator-on-swiped-product.html">removeDecoratorOnSwipedProduct</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">removeDecoratorOnSwipedProduct</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductItemTouchHelper$removeDecoratorOnSwipedProduct(android.view.View)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Checks if swiped product is last product and removes the decorator</p>
 </td>
 </tr>
 <tr>

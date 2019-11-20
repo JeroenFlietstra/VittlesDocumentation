@@ -5,7 +5,6 @@ com.example.vittles
 com.example.vittles.di
 com.example.vittles.enums
 com.example.vittles.mvp
-com.example.vittles.productadd
 com.example.vittles.productlist
 com.example.vittles.reports
 com.example.vittles.scanning

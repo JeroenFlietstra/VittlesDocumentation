@@ -39,52 +39,10 @@ Marc van Spronsen</p>
 <tbody>
 <tr>
 <td>
-<p><a href="args.html">args</a></p>
-</td>
-<td>
-<code><span class="keyword">val </span><span class="identifier">args</span><span class="symbol">: </span><span class="identifier">ProductListFragmentArgs</span></code></td>
-</tr>
-<tr>
-<td>
 <p><a href="content.html">content</a></p>
 </td>
 <td>
 <code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">content</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/FrameLayout.html"><span class="identifier">FrameLayout</span></a></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="deleted-product.html">deletedProduct</a></p>
-</td>
-<td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">deletedProduct</span><span class="symbol">: </span><span class="identifier">Product</span></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="deleted-product-delete-type.html">deletedProductDeleteType</a></p>
-</td>
-<td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">deletedProductDeleteType</span><span class="symbol">: </span><a href="../../com.example.vittles.enums/-delete-type/index.html"><span class="identifier">DeleteType</span></a></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="deleted-product-index.html">deletedProductIndex</a></p>
-</td>
-<td>
-<code><span class="keyword">var </span><span class="identifier">deletedProductIndex</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="filtered-products.html">filteredProducts</a></p>
-</td>
-<td>
-<code><span class="keyword">var </span><span class="identifier">filteredProducts</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="item-touch-helper.html">itemTouchHelper</a></p>
-</td>
-<td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">itemTouchHelper</span><span class="symbol">: </span><span class="identifier">ItemTouchHelper</span></code></td>
 </tr>
 <tr>
 <td>
@@ -98,21 +56,9 @@ Marc van Spronsen</p>
 <p><a href="presenter.html">presenter</a></p>
 </td>
 <td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">presenter</span><span class="symbol">: </span><a href="../-product-list-presenter/index.html"><span class="identifier">ProductListPresenter</span></a></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="product-adapter.html">productAdapter</a></p>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">presenter</span><span class="symbol">: </span><a href="../-product-list-presenter/index.html"><span class="identifier">ProductListPresenter</span></a></code>
+<p>The presenter of the fragment.</p>
 </td>
-<td>
-<code><span class="keyword">val </span><span class="identifier">productAdapter</span><span class="symbol">: </span><a href="../-product-adapter/index.html"><span class="identifier">ProductAdapter</span></a></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="products.html">products</a></p>
-</td>
-<td>
-<code><span class="keyword">var </span><span class="identifier">products</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><span class="identifier">Product</span><span class="symbol">&gt;</span></code></td>
 </tr>
 <tr>
 <td>
@@ -120,13 +66,6 @@ Marc van Spronsen</p>
 </td>
 <td>
 <code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">rvProducts</span><span class="symbol">: </span><span class="identifier">RecyclerView</span></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="sort-menu.html">sortMenu</a></p>
-</td>
-<td>
-<code><span class="keyword">val </span><span class="identifier">sortMenu</span><span class="symbol">: </span><a href="../../com.example.vittles.services.sorting/-sort-menu/index.html"><span class="identifier">SortMenu</span></a></code></td>
 </tr>
 <tr>
 <td>
@@ -155,13 +94,6 @@ Marc van Spronsen</p>
 </td>
 <td>
 <code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">tvNoResults</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/TextView.html"><span class="identifier">TextView</span></a></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="undo-snackbar.html">undoSnackbar</a></p>
-</td>
-<td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">undoSnackbar</span><span class="symbol">: </span><span class="identifier">Snackbar</span></code></td>
 </tr>
 </tbody>
 </table>
@@ -193,16 +125,6 @@ Marc van Spronsen</p>
 <td>
 <code><span class="keyword">fun </span><span class="identifier">initViews</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
 <p>Initializes the RecyclerView and sets EventListeners.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p><a href="on-add-button-click.html">onAddButtonClick</a></p>
-</td>
-<td>
-<code><span class="keyword">fun </span><span class="identifier">onAddButtonClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
-<p>Called when the add button is clicked.
-It starts the addProduct activity.</p>
 </td>
 </tr>
 <tr>
@@ -258,10 +180,10 @@ Re-populates the RecyclerView.</p>
 </tr>
 <tr>
 <td>
-<p><a href="on-save-delete-product.html">onSaveDeleteProduct</a></p>
+<p><a href="on-safe-delete-product.html">onSafeDeleteProduct</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">onSaveDeleteProduct</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onSaveDeleteProduct(com.example.domain.product.Product, com.example.vittles.enums.DeleteType)/product">product</span><span class="symbol">:</span>&nbsp;<span class="identifier">Product</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onSaveDeleteProduct(com.example.domain.product.Product, com.example.vittles.enums.DeleteType)/deleteType">deleteType</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.enums/-delete-type/index.html"><span class="identifier">DeleteType</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<code><span class="keyword">fun </span><span class="identifier">onSafeDeleteProduct</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onSafeDeleteProduct(com.example.domain.product.Product, com.example.vittles.enums.DeleteType)/product">product</span><span class="symbol">:</span>&nbsp;<span class="identifier">Product</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onSafeDeleteProduct(com.example.domain.product.Product, com.example.vittles.enums.DeleteType)/deleteType">deleteType</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.enums/-delete-type/index.html"><span class="identifier">DeleteType</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
 <p>Deletes product and shows a toast to undo the deletion.</p>
 </td>
 </tr>
@@ -352,6 +274,18 @@ Re-populates the RecyclerView.</p>
 <code><span class="keyword">fun </span><span class="identifier">setListeners</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
 <p>Sets all necessary event listeners on ui elements</p>
 </td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="with-search.html">withSearch</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">withSearch</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
 </tr>
 </tbody>
 </table>

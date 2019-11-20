@@ -36,13 +36,24 @@ Fethi Tewelde</p>
 <p><a href="nav-controller.html">navController</a></p>
 </td>
 <td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">navController</span><span class="symbol">: </span><span class="identifier">NavController</span></code></td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">navController</span><span class="symbol">: </span><span class="identifier">NavController</span></code>
+<p>The Navigation Controller of the application.</p>
+</td>
 </tr>
 </tbody>
 </table>
 <h3>Functions</h3>
 <table>
 <tbody>
+<tr>
+<td>
+<p><a href="get-menu-item-by-title.html">getMenuItemByTitle</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getMenuItemByTitle</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.MainActivity$getMenuItemByTitle(kotlin.Int)/title">title</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/view/MenuItem.html"><span class="identifier">MenuItem</span></a><span class="symbol">?</span></code>
+<p>Gets a menu item based on it's title</p>
+</td>
+</tr>
 <tr>
 <td>
 <p><a href="init-navigation.html">initNavigation</a></p>
@@ -73,17 +84,12 @@ It starts the addProduct activity.</p>
 </tr>
 <tr>
 <td>
-<p><a href="on-back-pressed.html">onBackPressed</a></p>
-</td>
-<td>
-<code><span class="keyword">fun </span><span class="identifier">onBackPressed</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
-</tr>
-<tr>
-<td>
 <p><a href="on-create.html">onCreate</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">onCreate</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.MainActivity$onCreate(android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">onCreate</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.MainActivity$onCreate(android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
 </tr>
 <tr>
 <td>
@@ -114,11 +120,47 @@ It starts the addProduct activity.</p>
 </tr>
 <tr>
 <td>
+<p><a href="on-navigate-settings-button-click.html">onNavigateSettingsButtonClick</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onNavigateSettingsButtonClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Navigate to the SettingsFragment with the search bar opened.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="search-icon-exception.html">searchIconException</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">searchIconException</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.MainActivity$searchIconException(kotlin.Int)/index">index</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Handles the exception of the search icon (Home icon is highlighted)</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-drawable-tint.html">setDrawableTint</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setDrawableTint</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.MainActivity$setDrawableTint(android.graphics.drawable.Drawable, kotlin.Int)/drawable">drawable</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/graphics/drawable/Drawable.html"><span class="identifier">Drawable</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.MainActivity$setDrawableTint(android.graphics.drawable.Drawable, kotlin.Int)/color">color</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/graphics/drawable/Drawable.html"><span class="identifier">Drawable</span></a><span class="symbol">?</span></code>
+<p>Sets the tint of a drawable and returns the drawable</p>
+</td>
+</tr>
+<tr>
+<td>
 <p><a href="set-listeners.html">setListeners</a></p>
 </td>
 <td>
 <code><span class="keyword">fun </span><span class="identifier">setListeners</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
 <p>Sets all necessary event listeners on UI elements.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-menu-icon-color.html">setMenuIconColor</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setMenuIconColor</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.MainActivity$setMenuIconColor(kotlin.Int)/index">index</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets the color of menu icon that is pressed</p>
 </td>
 </tr>
 <tr>

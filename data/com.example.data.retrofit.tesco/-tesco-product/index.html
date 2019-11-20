@@ -9,6 +9,9 @@
 <br/>
 <h1>TescoProduct</h1>
 <code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">TescoProduct</span></code>
+<p>API Result class for the Tesco API</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
 <h3>Constructors</h3>
 <table>
 <tbody>
@@ -17,7 +20,9 @@
 <p><a href="-init-.html">&lt;init&gt;</a></p>
 </td>
 <td>
-<code><span class="identifier">TescoProduct</span><span class="symbol">(</span><span class="identifier" id="com.example.data.retrofit.tesco.TescoProduct$<init>(kotlin.String, kotlin.String)/barcode">barcode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.example.data.retrofit.tesco.TescoProduct$<init>(kotlin.String, kotlin.String)/value">value</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span></code></td>
+<code><span class="identifier">TescoProduct</span><span class="symbol">(</span><span class="identifier" id="com.example.data.retrofit.tesco.TescoProduct$<init>(kotlin.String, kotlin.String)/barcode">barcode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.data.retrofit.tesco.TescoProduct$<init>(kotlin.String, kotlin.String)/value">value</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span><span class="symbol">)</span></code>
+<p>API Result class for the Tesco API</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -29,14 +34,18 @@
 <p><a href="barcode.html">barcode</a></p>
 </td>
 <td>
-<code><span class="keyword">var </span><span class="identifier">barcode</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+<code><span class="keyword">var </span><span class="identifier">barcode</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code>
+<p>The barcode of the product.</p>
+</td>
 </tr>
 <tr>
 <td>
 <p><a href="value.html">value</a></p>
 </td>
 <td>
-<code><span class="keyword">var </span><span class="identifier">value</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+<code><span class="keyword">var </span><span class="identifier">value</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code>
+<p>The product name of the product.</p>
+</td>
 </tr>
 </tbody>
 </table>

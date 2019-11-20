@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="915d0e7a-87eb-49a0-aa5d-6ad1414fcdcf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/alltypes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/alltypes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/-init-.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/-init-.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/invoke.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/invoke.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/repository.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/repository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.barcode/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/-init-.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/-init-.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -47,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -59,7 +67,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -67,20 +74,11 @@
               <item name="VittlesDocumentation" type="b2602c69:ProjectViewProjectNode" />
               <item name="VittlesDocumentation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="VittlesDocumentation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VittlesDocumentation" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="VittlesDocumentation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="VittlesDocumentation" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,11 +198,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573480021144</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated KDOC">
+      <created>1573480414510</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1573480414510</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
@@ -247,11 +252,6 @@
     <entry file="file://$PROJECT_DIR$/app/com.example.vittles/-add-product-activity/init-views.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3213" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -259,10 +259,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
