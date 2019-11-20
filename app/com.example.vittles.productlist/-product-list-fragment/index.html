@@ -39,61 +39,12 @@ Marc van Spronsen</p>
 <tbody>
 <tr>
 <td>
-<p><a href="content.html">content</a></p>
-</td>
-<td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">content</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/FrameLayout.html"><span class="identifier">FrameLayout</span></a></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="ll-search.html">llSearch</a></p>
-</td>
-<td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">llSearch</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/LinearLayout.html"><span class="identifier">LinearLayout</span></a></code></td>
-</tr>
-<tr>
-<td>
 <p><a href="presenter.html">presenter</a></p>
 </td>
 <td>
 <code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">presenter</span><span class="symbol">: </span><a href="../-product-list-presenter/index.html"><span class="identifier">ProductListPresenter</span></a></code>
 <p>The presenter of the fragment.</p>
 </td>
-</tr>
-<tr>
-<td>
-<p><a href="rv-products.html">rvProducts</a></p>
-</td>
-<td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">rvProducts</span><span class="symbol">: </span><span class="identifier">RecyclerView</span></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="sv-search.html">svSearch</a></p>
-</td>
-<td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">svSearch</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/SearchView.html"><span class="identifier">SearchView</span></a></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="toolbar.html">toolbar</a></p>
-</td>
-<td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">toolbar</span><span class="symbol">: </span><span class="identifier">Toolbar</span></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="tv-add-new-vittle.html">tvAddNewVittle</a></p>
-</td>
-<td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">tvAddNewVittle</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/TextView.html"><span class="identifier">TextView</span></a></code></td>
-</tr>
-<tr>
-<td>
-<p><a href="tv-no-results.html">tvNoResults</a></p>
-</td>
-<td>
-<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">tvNoResults</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/widget/TextView.html"><span class="identifier">TextView</span></a></code></td>
 </tr>
 </tbody>
 </table>
@@ -132,14 +83,18 @@ Marc van Spronsen</p>
 <p><a href="on-create-view.html">onCreateView</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">onCreateView</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/inflater">inflater</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/LayoutInflater.html"><span class="identifier">LayoutInflater</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/container">container</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/ViewGroup.html"><span class="identifier">ViewGroup</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">?</span></code></td>
+<code><span class="keyword">fun </span><span class="identifier">onCreateView</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/inflater">inflater</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/LayoutInflater.html"><span class="identifier">LayoutInflater</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/container">container</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/ViewGroup.html"><span class="identifier">ViewGroup</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">?</span></code>
+<p>{@inheritDoc}</p>
+</td>
 </tr>
 <tr>
 <td>
 <p><a href="on-destroy.html">onDestroy</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">onDestroy</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">onDestroy</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
 </tr>
 <tr>
 <td>
@@ -246,7 +201,9 @@ Re-populates the RecyclerView.</p>
 <p><a href="on-view-created.html">onViewCreated</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">onViewCreated</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onViewCreated(android.view.View, android.os.Bundle)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onViewCreated(android.view.View, android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">onViewCreated</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onViewCreated(android.view.View, android.os.Bundle)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ProductListFragment$onViewCreated(android.view.View, android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
 </tr>
 <tr>
 <td>
@@ -285,7 +242,10 @@ Re-populates the RecyclerView.</p>
 <p><a href="with-search.html">withSearch</a></p>
 </td>
 <td>
-<code><span class="keyword">var </span><span class="identifier">withSearch</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+<code><span class="keyword">var </span><span class="identifier">withSearch</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Indicates if the fragment should be opened with the search
+field opened.</p>
+</td>
 </tr>
 </tbody>
 </table>

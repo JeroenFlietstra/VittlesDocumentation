@@ -22,14 +22,18 @@ Marc van Spronsen</p>
 <p><a href="regex.html">regex</a></p>
 </td>
 <td>
-<code><span class="keyword">val </span><span class="identifier">regex</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/-regex/index.html"><span class="identifier">Regex</span></a></code></td>
+<code><span class="keyword">val </span><span class="identifier">regex</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/-regex/index.html"><span class="identifier">Regex</span></a></code>
+<p>Regex to match against dates (12/12/19, 12-12-2019, 12.dec.19, 12:12:2019, 12-nov, 12-11).</p>
+</td>
 </tr>
 <tr>
 <td>
 <p><a href="short-regex.html">shortRegex</a></p>
 </td>
 <td>
-<code><span class="keyword">val </span><span class="identifier">shortRegex</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/-regex/index.html"><span class="identifier">Regex</span></a></code></td>
+<code><span class="keyword">val </span><span class="identifier">shortRegex</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.text/-regex/index.html"><span class="identifier">Regex</span></a></code>
+<p>Regex to match against dates (12-2019, dec.2019, 12:2019, okt-2021)/</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -51,7 +55,10 @@ the callback function.</p>
 <p><a href="scan-for-expiration-date.html">scanForExpirationDate</a></p>
 </td>
 <td>
-<code><span class="keyword">fun </span><span class="identifier">scanForExpirationDate</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.scanner.ScanningService$scanForExpirationDate(com.google.firebase.ml.vision.common.FirebaseVisionImage, kotlin.Function1((kotlin.String, kotlin.Unit)), kotlin.Function1((java.lang.Exception, kotlin.Unit)))/image">image</span><span class="symbol">:</span>&nbsp;<span class="identifier">FirebaseVisionImage</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.scanner.ScanningService$scanForExpirationDate(com.google.firebase.ml.vision.common.FirebaseVisionImage, kotlin.Function1((kotlin.String, kotlin.Unit)), kotlin.Function1((java.lang.Exception, kotlin.Unit)))/onOcrSuccess">onOcrSuccess</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.scanner.ScanningService$scanForExpirationDate(com.google.firebase.ml.vision.common.FirebaseVisionImage, kotlin.Function1((kotlin.String, kotlin.Unit)), kotlin.Function1((java.lang.Exception, kotlin.Unit)))/onOcrFailure">onOcrFailure</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">exception</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/java/lang/Exception.html"><span class="identifier">Exception</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+<code><span class="keyword">fun </span><span class="identifier">scanForExpirationDate</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.scanner.ScanningService$scanForExpirationDate(com.google.firebase.ml.vision.common.FirebaseVisionImage, kotlin.Function1((kotlin.String, kotlin.Unit)), kotlin.Function1((java.lang.Exception, kotlin.Unit)))/image">image</span><span class="symbol">:</span>&nbsp;<span class="identifier">FirebaseVisionImage</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.scanner.ScanningService$scanForExpirationDate(com.google.firebase.ml.vision.common.FirebaseVisionImage, kotlin.Function1((kotlin.String, kotlin.Unit)), kotlin.Function1((java.lang.Exception, kotlin.Unit)))/onOcrSuccess">onOcrSuccess</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.scanner.ScanningService$scanForExpirationDate(com.google.firebase.ml.vision.common.FirebaseVisionImage, kotlin.Function1((kotlin.String, kotlin.Unit)), kotlin.Function1((java.lang.Exception, kotlin.Unit)))/onOcrFailure">onOcrFailure</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">exception</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/java/lang/Exception.html"><span class="identifier">Exception</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Scans the image for expiration dates to return it to
+the callback function.</p>
+</td>
 </tr>
 </tbody>
 </table>

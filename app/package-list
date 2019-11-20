@@ -2,7 +2,6 @@ $dokka.format:html
 $dokka.linkExtension:html
 
 com.example.vittles
-com.example.vittles.di
 com.example.vittles.enums
 com.example.vittles.mvp
 com.example.vittles.productlist

@@ -3,14 +3,493 @@
   <component name="ChangeListManager">
     <list default="true" id="915d0e7a-87eb-49a0-aa5d-6ad1414fcdcf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/alltypes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/alltypes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/-init-.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/-init-.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/invoke.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/invoke.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/repository.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/repository.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.barcode/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/-init-.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/-init-.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/alltypes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-app-component/-builder/app-module.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-app-component/-builder/application-bind.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-app-component/-builder/build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-app-component/-builder/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-app-component/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-app-component/inject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-app-module/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-app-module/application.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-app-module/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-app-module/provide-context.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-bindings-module/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-bindings-module/bind-notification-schedule-service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-bindings-module/bind-product-list-fragment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-bindings-module/bind-reports-fragment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-bindings-module/bind-scanner-fragment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-bindings-module/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-data-module/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-data-module/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-data-module/provide-product-dao-impl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-data-module/provide-products-api-service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/-data-module/provide-products-repository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.di/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.enums/-delete-type/-e-a-t-e-n.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.enums/-delete-type/-r-e-m-o-v-e-d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.enums/-delete-type/-t-h-r-o-w-n_-a-w-a-y.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.enums/-delete-type/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.enums/-indication-color/-g-r-e-e-n.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.enums/-indication-color/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.enums/-indication-color/-r-e-d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.enums/-indication-color/-y-e-l-l-o-w.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.enums/-indication-color/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.enums/-indication-color/value.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.enums/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.mvp/-base-presenter/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.mvp/-base-presenter/destroy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.mvp/-base-presenter/disposables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.mvp/-base-presenter/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.mvp/-base-presenter/start.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.mvp/-base-presenter/stop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.mvp/-base-presenter/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.mvp/-mvp-presenter/destroy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.mvp/-mvp-presenter/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.mvp/-mvp-presenter/stop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.mvp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-adapter/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-adapter/-view-holder/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-adapter/-view-holder/bind.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-adapter/-view-holder/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-adapter/click-listener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-adapter/context.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-adapter/get-item-count.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-adapter/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-adapter/on-bind-view-holder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-adapter/on-create-view-holder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-adapter/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/-icon-location/-l-e-f-t.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/-icon-location/-r-i-g-h-t.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/-icon-location/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/clear-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/context.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/draw-icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/get-movement-flags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/on-child-draw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/on-move.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/on-swiped.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/remove-decorator-on-swiped-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/remove-swipe-lines.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/safe-delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/set-background-color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-item-touch-helper/show-swipe-lines.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-presenter/delete-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-presenter/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-presenter/load-indication-colors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-presenter/start-presenting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/init-undo-snackbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/init-views.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/on-no-results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/on-populate-recycler-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/on-remove-button-clicked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/on-safe-delete-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/on-search-bar-closed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/on-search-bar-opened.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/on-show-product-delete-error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/on-show-products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/on-show-undo-snackbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/on-sort-menu-opened.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/set-empty-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/set-item-touch-helper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/-view/set-listeners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-contract/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/filter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/init-undo-snackbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/init-views.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/ll-search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-create-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-destroy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-no-results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-populate-recycler-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-remove-button-clicked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-resume.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-safe-delete-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-search-bar-closed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-search-bar-opened.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-show-product-delete-error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-show-products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-show-undo-snackbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-sort-menu-opened.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/on-view-created.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/presenter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/rv-products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/set-empty-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/set-item-touch-helper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/set-listeners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/sv-search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/toolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/tv-add-new-vittle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/tv-no-results.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-fragment/with-search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-presenter/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-presenter/delete-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-presenter/get-products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-presenter/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-presenter/load-indication-colors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/-product-list-presenter/start-presenting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.productlist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.reports/-reports-fragment/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.reports/-reports-fragment/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.reports/-reports-fragment/on-create-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning.productaddmanual/-product-name-edit-view/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning.productaddmanual/-product-name-edit-view/context.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning.productaddmanual/-product-name-edit-view/dialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning.productaddmanual/-product-name-edit-view/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning.productaddmanual/-product-name-edit-view/on-cancel-button-clicked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning.productaddmanual/-product-name-edit-view/on-confirm-button-clicked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning.productaddmanual/-product-name-edit-view/on-finished.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning.productaddmanual/-product-name-edit-view/open-dialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning.productaddmanual/-product-name-edit-view/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning.productaddmanual/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-preview-analyzer/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-preview-analyzer/analyze.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-preview-analyzer/degrees-to-firebase-rotation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-preview-analyzer/has-bar-code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-preview-analyzer/has-expiration-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-preview-analyzer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-preview-analyzer/last-analyzed-timestamp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-preview-analyzer/on-barcode-failure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-preview-analyzer/on-barcode-success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-preview-analyzer/on-ocr-failure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-preview-analyzer/on-ocr-success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scan-result/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scan-result/expiration-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scan-result/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scan-result/product-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-presenter/all-permissions-granted.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-presenter/check-permissions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-presenter/get-image-analysis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-presenter/get-preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-presenter/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-presenter/start-camera.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/init-listeners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/init-views.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-add-vittle-button-click.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-barcode-not-found.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-barcode-scanned.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-edit-expiration-button-click.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-edit-name-button-click.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-expiration-date-checkbox-checked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-expiration-date-edited.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-no-permission-granted.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-product-name-checkbox-checked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-product-name-edited.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-reset-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-reset-product-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-reset-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-show-add-product-error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-show-add-product-succeed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-show-close-to-expiration-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-text-not-found.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-text-scanned.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/on-torch-button-clicked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/-view/set-up-tap-to-focus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-contract/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/-m-o-n-t-h-s_-o-f-f-s-e-t.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/btn-scan-vittle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/btn-torch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/expiration-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/ib-edit-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/ib-edit-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/init-listeners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/init-views.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/iv-checkbox-barcode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/iv-checkbox-expiration-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-add-vittle-button-click.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-barcode-not-found.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-barcode-scanned.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-create-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-destroy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-edit-expiration-button-click.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-edit-name-button-click.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-expiration-date-checkbox-checked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-expiration-date-edited.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-no-permission-granted.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-product-name-checkbox-checked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-product-name-edited.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-request-permissions-from-fragment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-request-permissions-result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-reset-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-reset-product-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-reset-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-scan-successful.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-show-add-product-error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-show-add-product-succeed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-show-close-to-expiration-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-text-not-found.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-text-scanned.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-torch-button-clicked.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/on-view-created.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/presenter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/refresh-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/refresh-product-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/scanning-plane.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/set-up-tap-to-focus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/texture-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/tv-expiration-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/tv-product-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-fragment/vibrator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/-r-e-q-u-e-s-t_-c-o-d-e_-p-e-r-m-i-s-s-i-o-n-s.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/-r-e-q-u-i-r-e-d_-p-e-r-m-i-s-s-i-o-n-s.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/add-product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/all-permissions-granted.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/analyzer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/check-permissions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/executor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/get-image-analysis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/get-preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/get-product-by-barcode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/get-product-name-by-barcode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/image-analysis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/start-camera.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/-scanner-presenter/toggle-torch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.scanning/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/-notification-schedule-service/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/-notification-schedule-service/audit-notification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/-notification-schedule-service/disposables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/-notification-schedule-service/get-notification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/-notification-schedule-service/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/-notification-schedule-service/notify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/-notification-schedule-service/on-notify-fail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/-notification-schedule-service/on-receive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/-notification-schedule-service/schedule-notification-audit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/-notification-service/create-data-notification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/-notification-service/create-notification-channel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/-notification-service/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.notification/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-i-popup-base/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-i-popup-base/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-i-popup-base/popup-duration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-i-popup-base/sub-text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-i-popup-button/action.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-i-popup-button/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-i-popup-button/text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-base/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-base/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-base/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-base/popup-duration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-base/sub-text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-button/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-button/action.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-button/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-button/text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-manager/-i-n-s-t-a-n-c-e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-manager/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-manager/alert-dialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-manager/auto-close-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-manager/button-action.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-manager/close-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-manager/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-manager/instance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/-popup-manager/show-popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.popups/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-date-formatter-service/add-day-of-month.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-date-formatter-service/add-year.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-date-formatter-service/char-format.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-date-formatter-service/check-month.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-date-formatter-service/expiration-date-formatter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-date-formatter-service/formatter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-date-formatter-service/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-date-formatter-service/number-format.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-date-formatter-service/regex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-date-formatter-service/replaced-text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-date-formatter-service/short-char-regex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-date-formatter-service/short-number-regex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-scanning-service/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-scanning-service/regex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-scanning-service/scan-for-barcode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-scanning-service/scan-for-expiration-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/-scanning-service/short-regex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.scanner/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/-sorting-type/-a-l-p-h-a-b-e-t-i-c_-a-z.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/-sorting-type/-a-l-p-h-a-b-e-t-i-c_-z-a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/-sorting-type/-d-a-y-s_-r-e-m-a-i-n-i-n-g_-a-s-c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/-sorting-type/-d-a-y-s_-r-e-m-a-i-n-i-n-g_-d-e-s-c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/-sorting-type/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/-sorting-type/-n-e-w-e-s-t.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/-sorting-type/-o-l-d-e-s-t.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/-sorting-type/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/-sorting-type/text-id.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/adapter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/alert-dialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/btn-sort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/current-sorting-type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/on-sort-click.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/open-menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/previous-sorting-type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/set-circle-color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/set-listeners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/set-sort-btn-text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/sort-filtered-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/sort-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/-sort-menu/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles.services.sorting/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/get-menu-item-by-title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/init-navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/init-views.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/nav-controller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/on-add-button-click.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/on-create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/on-navigate-home-button-click.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/on-navigate-reports-button-click.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/on-navigate-search-button-click.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/on-navigate-settings-button-click.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/search-icon-exception.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/set-drawable-tint.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/set-listeners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/set-menu-icon-color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-main-activity/show-bottom-navigation-bar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-vittles-app/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-vittles-app/application-injector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-vittles-app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/-vittles-app/on-create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/com.example.vittles/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index-outline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/alltypes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit.tesco/-tesco-product/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit.tesco/-tesco-product/barcode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit.tesco/-tesco-product/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit.tesco/-tesco-product/value.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit.tesco/-tesco-result/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit.tesco/-tesco-result/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit.tesco/-tesco-result/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit.tesco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit/-products-api-service/get-product-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit/-products-api-service/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit/-products-api/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit/-products-api/base-url.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit/-products-api/create-api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit/-products-api/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.retrofit/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-app-database/-i-n-s-t-a-n-c-e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-app-database/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-app-database/get-database.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-app-database/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-app-database/product-dao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-converters/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-converters/date-to-timestamp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-converters/from-timestamp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-converters/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-dao/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-dao/find-by-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-dao/get-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-dao/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-dao/insert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-dao/load-all-by-ids.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-entity/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-entity/creation-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-entity/expiration-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-entity/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-entity/product-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-entity/uid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-model-mapper/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-model-mapper/from-entity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-model-mapper/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/-product-model-mapper/to-entity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/create-product-dao-impl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data.room/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data/-products-repository-impl/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data/-products-repository-impl/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data/-products-repository-impl/get-product-name-by-barcode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data/-products-repository-impl/get.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data/-products-repository-impl/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data/-products-repository-impl/mapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data/-products-repository-impl/patch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data/-products-repository-impl/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data/-products-repository-impl/product-dao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data/-products-repository-impl/products-api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/com.example.data/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/index-outline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/alltypes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/invoke.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/-get-product-by-barcode/repository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.barcode/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.consts/-d-a-y-s_-r-e-m-a-i-n-i-n-g_-b-o-u-n-d-a-r-y_-c-l-o-s-e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.consts/-d-a-y-s_-r-e-m-a-i-n-i-n-g_-e-x-p-i-r-e-d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.consts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.enums/-expiration-indication-color/-g-r-e-e-n.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.enums/-expiration-indication-color/-r-e-d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.enums/-expiration-indication-color/-y-e-l-l-o-w.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.enums/-expiration-indication-color/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.enums/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.exceptions/-notification-data-exception/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.exceptions/-notification-data-exception/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.exceptions/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-get-notification-products-expired/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-get-notification-products-expired/create-message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-get-notification-products-expired/create-notification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-get-notification-products-expired/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-get-notification-products-expired/invoke.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-get-notification-products-expired/repository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/auto-cancel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/big-text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/-notification/title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.notification/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-add-product/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-add-product/expiration-date-is-close.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-add-product/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-add-product/invoke.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-add-product/repository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-add-product/validate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-delete-product/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-delete-product/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-delete-product/invoke.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-delete-product/repository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-get-products/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-get-products/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-get-products/invoke.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-get-products/repository.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-product/-init-.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-product/creation-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-product/expiration-date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-product/get-days-remaining.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-product/get-indication-color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-product/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-product/indication-color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-product/is-valid-for-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-product/is-valid-for-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-product/product-name.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/-product/uid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.product/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.repositories/-products-repository/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.repositories/-products-repository/get-product-name-by-barcode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.repositories/-products-repository/get.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.repositories/-products-repository/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.repositories/-products-repository/patch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.repositories/-products-repository/post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/com.example.domain.repositories/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/index-outline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/package-list" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +505,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -66,7 +545,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,6 +557,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,11 +684,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573480414510</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Updated KDOC">
+      <created>1574254794666</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574254794666</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
@@ -224,7 +710,7 @@
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="4" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Messages" order="4" visible="true" weight="0.32827735" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -249,9 +735,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/com.example.vittles/-add-product-activity/init-views.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/com.example.vittles/-add-product-activity/init-views.html" />
     <entry file="file://$PROJECT_DIR$/data/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -264,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
