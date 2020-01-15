@@ -1,0 +1,152 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>SharedPrefsSettingsRepository - data</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">data</a>&nbsp;/&nbsp;<a href="../index.html">com.example.data.settings</a>&nbsp;/&nbsp;<a href="./index.html">SharedPrefsSettingsRepository</a><br/>
+<br/>
+<h1>SharedPrefsSettingsRepository</h1>
+<code><span class="keyword">class </span><span class="identifier">SharedPrefsSettingsRepository</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">SettingsRepository</span></code>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">SharedPrefsSettingsRepository</span><span class="symbol">(</span><span class="identifier" id="com.example.data.settings.SharedPrefsSettingsRepository$<init>(android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">)</span></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="notification-time-key.html">notificationTimeKey</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">notificationTimeKey</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>notificationTimeKey key value</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="notifications-key.html">notificationsKey</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">notificationsKey</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>notificationsKey key value</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="performance-key.html">performanceKey</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">performanceKey</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>performanceKey key value</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="shared-preferences.html">sharedPreferences</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">sharedPreferences</span><span class="symbol">: </span><a href="../-shared-preference-helper/index.html"><span class="identifier">SharedPreferenceHelper</span></a></code>
+<p>The shared preferences instance.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="vibration-key.html">vibrationKey</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">vibrationKey</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>vibrationKey key value</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get-notification-enabled.html">getNotificationEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getNotificationEnabled</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-notification-schedule.html">getNotificationSchedule</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getNotificationSchedule</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">NotificationSchedule</span></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-performance-setting.html">getPerformanceSetting</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getPerformanceSetting</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">PerformanceSetting</span></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-vibration-enabled.html">getVibrationEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getVibrationEnabled</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-notification-enabled.html">setNotificationEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setNotificationEnabled</span><span class="symbol">(</span><span class="identifier" id="com.example.data.settings.SharedPrefsSettingsRepository$setNotificationEnabled(kotlin.Boolean)/isEnabled">isEnabled</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-notification-schedule.html">setNotificationSchedule</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setNotificationSchedule</span><span class="symbol">(</span><span class="identifier" id="com.example.data.settings.SharedPrefsSettingsRepository$setNotificationSchedule(com.example.domain.settings.model.NotificationSchedule)/notificationSchedule">notificationSchedule</span><span class="symbol">:</span>&nbsp;<span class="identifier">NotificationSchedule</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-performance-setting.html">setPerformanceSetting</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setPerformanceSetting</span><span class="symbol">(</span><span class="identifier" id="com.example.data.settings.SharedPrefsSettingsRepository$setPerformanceSetting(com.example.domain.settings.model.PerformanceSetting)/performanceSetting">performanceSetting</span><span class="symbol">:</span>&nbsp;<span class="identifier">PerformanceSetting</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-vibration-enabled.html">setVibrationEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setVibrationEnabled</span><span class="symbol">(</span><span class="identifier" id="com.example.data.settings.SharedPrefsSettingsRepository$setVibrationEnabled(kotlin.Boolean)/isEnabled">isEnabled</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

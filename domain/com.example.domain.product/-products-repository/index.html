@@ -1,0 +1,59 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ProductsRepository - domain</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">domain</a>&nbsp;/&nbsp;<a href="../index.html">com.example.domain.product</a>&nbsp;/&nbsp;<a href="./index.html">ProductsRepository</a><br/>
+<br/>
+<h1>ProductsRepository</h1>
+<code><span class="keyword">interface </span><span class="identifier">ProductsRepository</span></code>
+<p>Repository interface for the products.</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<p><strong>Author</strong><br/>
+Arjen Simons</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="delete.html">delete</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">delete</span><span class="symbol">(</span><span class="identifier" id="com.example.domain.product.ProductsRepository$delete(com.example.domain.product.Product)/product">product</span><span class="symbol">:</span>&nbsp;<a href="../-product/index.html"><span class="identifier">Product</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Completable</span></code>
+<p>Deletes a product in the database.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get.html">get</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">get</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Single</span><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../-product/index.html"><span class="identifier">Product</span></a><span class="symbol">&gt;</span><span class="symbol">&gt;</span></code>
+<p>Gets all the products from the local database.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="patch.html">patch</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">patch</span><span class="symbol">(</span><span class="identifier" id="com.example.domain.product.ProductsRepository$patch(com.example.domain.product.Product)/product">product</span><span class="symbol">:</span>&nbsp;<a href="../-product/index.html"><span class="identifier">Product</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Completable</span></code>
+<p>Updates a product in the database.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="post.html">post</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">post</span><span class="symbol">(</span><span class="identifier" id="com.example.domain.product.ProductsRepository$post(com.example.domain.product.Product)/product">product</span><span class="symbol">:</span>&nbsp;<a href="../-product/index.html"><span class="identifier">Product</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Completable</span></code>
+<p>Adds a product in the database.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

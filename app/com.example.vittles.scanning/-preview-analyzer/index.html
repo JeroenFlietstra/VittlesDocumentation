@@ -1,0 +1,185 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>PreviewAnalyzer - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.scanning</a>&nbsp;/&nbsp;<a href="./index.html">PreviewAnalyzer</a><br/>
+<br/>
+<h1>PreviewAnalyzer</h1>
+<code><span class="keyword">class </span><span class="identifier">PreviewAnalyzer</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">Analyzer</span></code>
+<p>Analyzer used by CameraX to analyze frames from the camera preview.</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<p><strong>Author</strong><br/>
+Marc van Spronsen</p>
+<p><strong>Author</strong><br/>
+Jan-Willem van Bremen</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">PreviewAnalyzer</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.PreviewAnalyzer$<init>(kotlin.Function1((java.lang.Exception, kotlin.Unit)), kotlin.Function1((kotlin.collections.List((com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode)), kotlin.Unit)), kotlin.Function1((java.lang.Exception, kotlin.Unit)), kotlin.Function1((kotlin.String, kotlin.Unit)), kotlin.Function0((kotlin.Unit)), com.example.domain.settings.model.PerformanceSetting)/onBarcodeFailure">onBarcodeFailure</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html"><span class="identifier">Exception</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.PreviewAnalyzer$<init>(kotlin.Function1((java.lang.Exception, kotlin.Unit)), kotlin.Function1((kotlin.collections.List((com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode)), kotlin.Unit)), kotlin.Function1((java.lang.Exception, kotlin.Unit)), kotlin.Function1((kotlin.String, kotlin.Unit)), kotlin.Function0((kotlin.Unit)), com.example.domain.settings.model.PerformanceSetting)/onBarcodeSuccess">onBarcodeSuccess</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">barcodes</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><span class="identifier">FirebaseVisionBarcode</span><span class="symbol">&gt;</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.PreviewAnalyzer$<init>(kotlin.Function1((java.lang.Exception, kotlin.Unit)), kotlin.Function1((kotlin.collections.List((com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode)), kotlin.Unit)), kotlin.Function1((java.lang.Exception, kotlin.Unit)), kotlin.Function1((kotlin.String, kotlin.Unit)), kotlin.Function0((kotlin.Unit)), com.example.domain.settings.model.PerformanceSetting)/onOcrFailure">onOcrFailure</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html"><span class="identifier">Exception</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.PreviewAnalyzer$<init>(kotlin.Function1((java.lang.Exception, kotlin.Unit)), kotlin.Function1((kotlin.collections.List((com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode)), kotlin.Unit)), kotlin.Function1((java.lang.Exception, kotlin.Unit)), kotlin.Function1((kotlin.String, kotlin.Unit)), kotlin.Function0((kotlin.Unit)), com.example.domain.settings.model.PerformanceSetting)/onOcrSuccess">onOcrSuccess</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.PreviewAnalyzer$<init>(kotlin.Function1((java.lang.Exception, kotlin.Unit)), kotlin.Function1((kotlin.collections.List((com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode)), kotlin.Unit)), kotlin.Function1((java.lang.Exception, kotlin.Unit)), kotlin.Function1((kotlin.String, kotlin.Unit)), kotlin.Function0((kotlin.Unit)), com.example.domain.settings.model.PerformanceSetting)/onOutOfMemory">onOutOfMemory</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.PreviewAnalyzer$<init>(kotlin.Function1((java.lang.Exception, kotlin.Unit)), kotlin.Function1((kotlin.collections.List((com.google.firebase.ml.vision.barcode.FirebaseVisionBarcode)), kotlin.Unit)), kotlin.Function1((java.lang.Exception, kotlin.Unit)), kotlin.Function1((kotlin.String, kotlin.Unit)), kotlin.Function0((kotlin.Unit)), com.example.domain.settings.model.PerformanceSetting)/performanceSetting">performanceSetting</span><span class="symbol">:</span>&nbsp;<span class="identifier">PerformanceSetting</span><span class="symbol">)</span></code>
+<p>Analyzer used by CameraX to analyze frames from the camera preview.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="barcode-task.html">barcodeTask</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">barcodeTask</span><span class="symbol">: </span><span class="identifier">Task</span><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/index.html"><span class="identifier">MutableList</span></a><span class="symbol">&lt;</span><span class="identifier">FirebaseVisionBarcode</span><span class="symbol">&gt;</span><span class="symbol">&gt;</span><span class="symbol">?</span></code>
+<p>The task for analyzing a frame for a barcode</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="last-analyzed-timestamp.html">lastAnalyzedTimestamp</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">lastAnalyzedTimestamp</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a></code>
+<p>Value used for the scanning delay</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="ocr-task.html">ocrTask</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">ocrTask</span><span class="symbol">: </span><span class="identifier">Task</span><span class="symbol">&lt;</span><span class="identifier">FirebaseVisionText</span><span class="symbol">&gt;</span><span class="symbol">?</span></code>
+<p>The task for analyzing a frame for an expiration date</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-barcode-failure.html">onBarcodeFailure</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">onBarcodeFailure</span><span class="symbol">: </span><span class="symbol">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html"><span class="identifier">Exception</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Callback function for unsuccessful barcode scan.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-barcode-success.html">onBarcodeSuccess</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">onBarcodeSuccess</span><span class="symbol">: </span><span class="symbol">(</span><span class="identifier">barcodes</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><span class="identifier">FirebaseVisionBarcode</span><span class="symbol">&gt;</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Callback function for successful barcode scan.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-ocr-failure.html">onOcrFailure</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">onOcrFailure</span><span class="symbol">: </span><span class="symbol">(</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html"><span class="identifier">Exception</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Callback function for unsuccessful OCR scan.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-ocr-success.html">onOcrSuccess</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">onOcrSuccess</span><span class="symbol">: </span><span class="symbol">(</span><span class="identifier">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Callback function for successful OCR scan.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-out-of-memory.html">onOutOfMemory</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">onOutOfMemory</span><span class="symbol">: </span><span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Callback function for when the scanner allocates too much memory.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="performance-setting.html">performanceSetting</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">performanceSetting</span><span class="symbol">: </span><span class="identifier">PerformanceSetting</span></code>
+<p>The performance setting of the scanner.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="analyze.html">analyze</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">analyze</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.PreviewAnalyzer$analyze(androidx.camera.core.ImageProxy, kotlin.Int)/imageProxy">imageProxy</span><span class="symbol">:</span>&nbsp;<span class="identifier">ImageProxy</span><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.PreviewAnalyzer$analyze(androidx.camera.core.ImageProxy, kotlin.Int)/degrees">degrees</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@link ImageAnalysis.Analyzer}
+Processes the frames of the camera.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="degrees-to-firebase-rotation.html">degreesToFirebaseRotation</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">degreesToFirebaseRotation</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.PreviewAnalyzer$degreesToFirebaseRotation(kotlin.Int)/degrees">degrees</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>Convert the rotation degree to firebase rotation degree.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="has-available-heap.html">hasAvailableHeap</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">hasAvailableHeap</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Checks if the app has enable memory allocated in order to use the camera.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-m-i-n_-a-l-l-o-c-a-t-e-d_-h-e-a-p_-l-e-f-t_-p-e-r-c-e-n-t-a-g-e.html">MIN_ALLOCATED_HEAP_LEFT_PERCENTAGE</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">MIN_ALLOCATED_HEAP_LEFT_PERCENTAGE</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>Value that indicates the minimum percentage of allocated heap left.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="has-bar-code.html">hasBarCode</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">hasBarCode</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Value that indicates if a barcode has been scanned already</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="has-expiration-date.html">hasExpirationDate</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">hasExpirationDate</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Value that indicates if an expiration date has been scanned already</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

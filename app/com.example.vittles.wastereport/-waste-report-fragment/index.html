@@ -1,0 +1,157 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>WasteReportFragment - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.wastereport</a>&nbsp;/&nbsp;<a href="./index.html">WasteReportFragment</a><br/>
+<br/>
+<h1>WasteReportFragment</h1>
+<code><span class="keyword">class </span><span class="identifier">WasteReportFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerFragment</span><span class="symbol">, </span><a href="../-waste-report-contract/-view/index.html"><span class="identifier">View</span></a></code>
+<p>Fragment class for the waste report.</p>
+<p><strong>Author</strong><br/>
+Sarah Lange</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">WasteReportFragment</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>Fragment class for the waste report.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="presenter.html">presenter</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">presenter</span><span class="symbol">: </span><a href="../-waste-report-presenter/index.html"><span class="identifier">WasteReportPresenter</span></a></code>
+<p>The presenter of the fragment</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="add-on-page-change-listener.html">addOnPageChangeListener</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">addOnPageChangeListener</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets listener to viewPager</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="change-date.html">changeDate</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">changeDate</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$changeDate(org.joda.time.DateTime)/date">date</span><span class="symbol">:</span>&nbsp;<span class="identifier">DateTime</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Called when the time range is changed.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="init-data.html">initData</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">initData</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Initializes the data including eaten and expired vittles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="init-views.html">initViews</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">initViews</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$initViews(kotlin.Int, kotlin.Int)/vittlesEaten">vittlesEaten</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$initViews(kotlin.Int, kotlin.Int)/vittlesExpired">vittlesExpired</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Initializes view elements including the onClickListener</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-create-view.html">onCreateView</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onCreateView</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/inflater">inflater</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/LayoutInflater.html"><span class="identifier">LayoutInflater</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/container">container</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/ViewGroup.html"><span class="identifier">ViewGroup</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">?</span></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-destroy.html">onDestroy</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onDestroy</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-view-created.html">onViewCreated</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onViewCreated</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$onViewCreated(android.view.View, android.os.Bundle)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$onViewCreated(android.view.View, android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-no-results-view.html">setNoResultsView</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setNoResultsView</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Shows toast if an error during loading statistics occurs</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="show-change-date.html">showChangeDate</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">showChangeDate</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$showChangeDate(kotlin.Int, kotlin.Int, org.joda.time.DateTime)/vittlesEaten">vittlesEaten</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$showChangeDate(kotlin.Int, kotlin.Int, org.joda.time.DateTime)/vittlesExpired">vittlesExpired</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$showChangeDate(kotlin.Int, kotlin.Int, org.joda.time.DateTime)/date">date</span><span class="symbol">:</span>&nbsp;<span class="identifier">DateTime</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Calls methods to show data after date is changed</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="show-eaten-vittles.html">showEatenVittles</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">showEatenVittles</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$showEatenVittles(kotlin.Int)/eatenVittles">eatenVittles</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Displays amount of eaten vittles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="show-expired-vittles.html">showExpiredVittles</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">showExpiredVittles</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.WasteReportFragment$showExpiredVittles(kotlin.Int)/expiredVittles">expiredVittles</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Displays amount of expired vittles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="show-time-range-selector.html">showTimeRangeSelector</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">showTimeRangeSelector</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Opens the timeRange menu when the button is clicked</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,168 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>SettingsFragment - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.settings</a>&nbsp;/&nbsp;<a href="./index.html">SettingsFragment</a><br/>
+<br/>
+<h1>SettingsFragment</h1>
+<code><span class="keyword">class </span><span class="identifier">SettingsFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerFragment</span><span class="symbol">, </span><a href="../-settings-contract/-view/index.html"><span class="identifier">View</span></a></code>
+<p>Fragment class for the Settings. This is the fragment that shows the settings.</p>
+<p><strong>Author</strong><br/>
+Fethi Tewelde</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">SettingsFragment</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>Fragment class for the Settings. This is the fragment that shows the settings.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="presenter.html">presenter</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">presenter</span><span class="symbol">: </span><a href="../-settings-presenter/index.html"><span class="identifier">SettingsPresenter</span></a></code>
+<p>The presenter of the fragment</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="expand-advanced-settings.html">expandAdvancedSettings</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">expandAdvancedSettings</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method for toggling the advanced settings</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="fade-in-anim.html">fadeInAnim</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">fadeInAnim</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.settings.SettingsFragment$fadeInAnim(android.view.View)/elem">elem</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Animation for fade in and translate</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="fade-out-anim.html">fadeOutAnim</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">fadeOutAnim</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.settings.SettingsFragment$fadeOutAnim(android.view.View)/elem">elem</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Animation for fade out and translate</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="init-views.html">initViews</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">initViews</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets EventListeners
+sets default values to the notification toggle
+shows/keeps the last selected value of notification time</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-advanced-click.html">onAdvancedClick</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onAdvancedClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method called when clicked on advanced settings item</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-create-view.html">onCreateView</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onCreateView</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.settings.SettingsFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/inflater">inflater</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/LayoutInflater.html"><span class="identifier">LayoutInflater</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.settings.SettingsFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/container">container</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/ViewGroup.html"><span class="identifier">ViewGroup</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.settings.SettingsFragment$onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">?</span></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-destroy.html">onDestroy</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onDestroy</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-product-dictionary-clear-fail.html">onProductDictionaryClearFail</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onProductDictionaryClearFail</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to show unsuccessful deletion of product names</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-product-dictionary-clear-success.html">onProductDictionaryClearSuccess</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onProductDictionaryClearSuccess</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to show successful deletion of product names</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-remove-saved-products-click.html">onRemoveSavedProductsClick</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onRemoveSavedProductsClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Removes all saved product names from the local database.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-view-created.html">onViewCreated</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onViewCreated</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.settings.SettingsFragment$onViewCreated(android.view.View, android.os.Bundle)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.settings.SettingsFragment$onViewCreated(android.view.View, android.os.Bundle)/savedInstanceState">savedInstanceState</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Bundle.html"><span class="identifier">Bundle</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="remove-saved-products.html">removeSavedProducts</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">removeSavedProducts</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to call presenter to remove all saved products</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-listeners.html">setListeners</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setListeners</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets all necessary event listeners on ui elements</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

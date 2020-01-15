@@ -1,0 +1,20 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>TscoApiService.getProductName - data</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">data</a>&nbsp;/&nbsp;<a href="../index.html">com.example.data.retrofit.tsco</a>&nbsp;/&nbsp;<a href="index.html">TscoApiService</a>&nbsp;/&nbsp;<a href="./get-product-name.html">getProductName</a><br/>
+<br/>
+<h1>getProductName</h1>
+<a name="com.example.data.retrofit.tsco.TscoApiService$getProductName(kotlin.String)"></a>
+<code><span class="identifier">@Headers</span><span class="symbol">(</span>["Accept: application/json"]<span class="symbol">)</span> <span class="identifier">@GET</span><span class="symbol">(</span>"product/"<span class="symbol">)</span> <span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getProductName</span><span class="symbol">(</span><span class="identifier">@Query</span><span class="symbol">(</span>"gtin"<span class="symbol">, </span>true<span class="symbol">)</span> <span class="identifier" id="com.example.data.retrofit.tsco.TscoApiService$getProductName(kotlin.String)/barcode">barcode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Observable</span><span class="symbol">&lt;</span><a href="../-tesco-result/index.html"><span class="identifier">TescoResult</span></a><span class="symbol">&gt;</span></code>
+<p>Connects to the endpoint that retrieves product data based on a GTIN code.</p>
+<h3>Parameters</h3>
+<p><a name="barcode"></a>
+<code>barcode</code> - The GTIN code of the product.</p>
+<p><strong>Return</strong><br/>
+A <a href="../-tesco-result/index.html">TescoResult</a> object with the retrieved data.</p>
+</BODY>
+</HTML>

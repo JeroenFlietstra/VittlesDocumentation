@@ -1,0 +1,77 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>BarcodesRepository - domain</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">domain</a>&nbsp;/&nbsp;<a href="../index.html">com.example.domain.barcode</a>&nbsp;/&nbsp;<a href="./index.html">BarcodesRepository</a><br/>
+<br/>
+<h1>BarcodesRepository</h1>
+<code><span class="keyword">interface </span><span class="identifier">BarcodesRepository</span></code>
+<p>Repository interface for the barcode dictionary.</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<p><strong>Author</strong><br/>
+Jan-Willem van Bremen</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="empty-product-dictionary-room.html">emptyProductDictionaryRoom</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">emptyProductDictionaryRoom</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Completable</span></code>
+<p>Delete product dictionaries in the local database.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-product-name-by-barcode-o-f-f.html">getProductNameByBarcodeOFF</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getProductNameByBarcodeOFF</span><span class="symbol">(</span><span class="identifier" id="com.example.domain.barcode.BarcodesRepository$getProductNameByBarcodeOFF(kotlin.String)/barcode">barcode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Observable</span><span class="symbol">&lt;</span><a href="../-product-dictionary/index.html"><span class="identifier">ProductDictionary</span></a><span class="symbol">&gt;</span></code>
+<p>Calls external API to look for product name of the barcode.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-product-name-by-barcode-room.html">getProductNameByBarcodeRoom</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getProductNameByBarcodeRoom</span><span class="symbol">(</span><span class="identifier" id="com.example.domain.barcode.BarcodesRepository$getProductNameByBarcodeRoom(kotlin.String)/barcode">barcode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Observable</span><span class="symbol">&lt;</span><a href="../-product-dictionary/index.html"><span class="identifier">ProductDictionary</span></a><span class="symbol">&gt;</span></code>
+<p>Retrieve product name by barcode from local database.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-product-name-by-barcode-t-s-c-o.html">getProductNameByBarcodeTSCO</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getProductNameByBarcodeTSCO</span><span class="symbol">(</span><span class="identifier" id="com.example.domain.barcode.BarcodesRepository$getProductNameByBarcodeTSCO(kotlin.String)/barcode">barcode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Observable</span><span class="symbol">&lt;</span><a href="../-product-dictionary/index.html"><span class="identifier">ProductDictionary</span></a><span class="symbol">&gt;</span></code>
+<p>Calls external API to look for product name of the barcode.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="insert-product-dictionary-room.html">insertProductDictionaryRoom</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">insertProductDictionaryRoom</span><span class="symbol">(</span><span class="identifier" id="com.example.domain.barcode.BarcodesRepository$insertProductDictionaryRoom(com.example.domain.barcode.ProductDictionary)/productDictionary">productDictionary</span><span class="symbol">:</span>&nbsp;<a href="../-product-dictionary/index.html"><span class="identifier">ProductDictionary</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Completable</span></code>
+<p>Insert product dictionary into the local database.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="update-product-dictionary-room.html">updateProductDictionaryRoom</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">updateProductDictionaryRoom</span><span class="symbol">(</span><span class="identifier" id="com.example.domain.barcode.BarcodesRepository$updateProductDictionaryRoom(com.example.domain.barcode.ProductDictionary)/productDictionary">productDictionary</span><span class="symbol">:</span>&nbsp;<a href="../-product-dictionary/index.html"><span class="identifier">ProductDictionary</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Completable</span></code>
+<p>Update product dictionary in the local database.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

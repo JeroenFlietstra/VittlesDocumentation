@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>NotificationScheduleContract.Service - app</title>
+<link rel="stylesheet" href="../../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../../index.html">app</a>&nbsp;/&nbsp;<a href="../../index.html">com.example.vittles.services.notification</a>&nbsp;/&nbsp;<a href="../index.html">NotificationScheduleContract</a>&nbsp;/&nbsp;<a href="./index.html">Service</a><br/>
+<br/>
+<h1>Service</h1>
+<code><span class="keyword">interface </span><span class="identifier">Service</span></code>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="notify.html">notify</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">notify</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleContract.Service$notify(com.example.domain.notification.Notification, android.content.Context)/notification">notification</span><span class="symbol">:</span>&nbsp;<span class="identifier">Notification</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleContract.Service$notify(com.example.domain.notification.Notification, android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-notify-fail.html">onNotifyFail</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onNotifyFail</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleContract.Service$onNotifyFail(kotlin.Throwable)/error">error</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html"><span class="identifier">Throwable</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../-notification-schedule-service/index.html">NotificationScheduleService</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">NotificationScheduleService</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerBroadcastReceiver</span><span class="symbol">, </span><a href="./index.html"><span class="identifier">Service</span></a></code>
+<p>Background scheduler for the notification service.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

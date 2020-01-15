@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>RefreshData - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.wastereport.circlechart</a>&nbsp;/&nbsp;<a href="./index.html">RefreshData</a><br/>
+<br/>
+<h1>RefreshData</h1>
+<code><span class="keyword">interface </span><span class="identifier">RefreshData</span></code>
+<p>Interface for updating date</p>
+<p><strong>Author</strong><br/>
+Sarah Lange</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="refresh.html">refresh</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">refresh</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.circlechart.RefreshData$refresh(org.joda.time.DateTime, kotlin.Int, kotlin.Int)/date">date</span><span class="symbol">:</span>&nbsp;<span class="identifier">DateTime</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.circlechart.RefreshData$refresh(org.joda.time.DateTime, kotlin.Int, kotlin.Int)/vittlesEaten">vittlesEaten</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.circlechart.RefreshData$refresh(org.joda.time.DateTime, kotlin.Int, kotlin.Int)/vittlesExpired">vittlesExpired</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Refreshes data after setting new date</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../com.example.vittles.wastereport.barchart/-bar-chart-fragment/index.html">BarChartFragment</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">BarChartFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerFragment</span><span class="symbol">, </span><a href="../../com.example.vittles.wastereport.barchart/-bar-chart-contract/-view/index.html"><span class="identifier">View</span></a><span class="symbol">, </span><a href="./index.html"><span class="identifier">RefreshData</span></a></code>
+<p>Fragment class for the circle chart.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../-circle-chart-fragment/index.html">CircleChartFragment</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">CircleChartFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerFragment</span><span class="symbol">, </span><a href="../-circle-chart-contract/-view/index.html"><span class="identifier">View</span></a><span class="symbol">, </span><a href="./index.html"><span class="identifier">RefreshData</span></a></code>
+<p>Fragment class for the waste report.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

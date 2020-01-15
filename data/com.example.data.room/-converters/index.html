@@ -1,0 +1,57 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Converters - data</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">data</a>&nbsp;/&nbsp;<a href="../index.html">com.example.data.room</a>&nbsp;/&nbsp;<a href="./index.html">Converters</a><br/>
+<br/>
+<h1>Converters</h1>
+<code><span class="keyword">class </span><span class="identifier">Converters</span></code>
+<p>The converters in this class are used to convert non-persistable types in data models
+to persistable types.</p>
+<p><strong>Author</strong><br/>
+Jan-Willem van Bremen</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">Converters</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>The converters in this class are used to convert non-persistable types in data models
+to persistable types.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="date-to-timestamp.html">dateToTimestamp</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">dateToTimestamp</span><span class="symbol">(</span><span class="identifier" id="com.example.data.room.Converters$dateToTimestamp(org.joda.time.DateTime)/date">date</span><span class="symbol">:</span>&nbsp;<span class="identifier">DateTime</span><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span></code>
+<p>Converts a DateTime object to a long value (time in ms).</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="from-timestamp.html">fromTimestamp</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">fromTimestamp</span><span class="symbol">(</span><span class="identifier" id="com.example.data.room.Converters$fromTimestamp(kotlin.Long)/value">value</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">DateTime</span><span class="symbol">?</span></code>
+<p>Converts long value (time in ms) to a DateTime object.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

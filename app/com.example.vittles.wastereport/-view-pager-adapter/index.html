@@ -1,0 +1,112 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ViewPagerAdapter - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.wastereport</a>&nbsp;/&nbsp;<a href="./index.html">ViewPagerAdapter</a><br/>
+<br/>
+<h1>ViewPagerAdapter</h1>
+<code><span class="keyword">class </span><span class="identifier">ViewPagerAdapter</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">FragmentStatePagerAdapter</span></code>
+<p>Binds fragments to views that are displayed in the view pager</p>
+<p><strong>Author</strong><br/>
+Sarah Lange</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="keyword">internal</span> <span class="identifier">ViewPagerAdapter</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.ViewPagerAdapter$<init>(androidx.fragment.app.FragmentManager, org.joda.time.DateTime, kotlin.Int, kotlin.Int)/fm">fm</span><span class="symbol">:</span>&nbsp;<span class="identifier">FragmentManager</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.ViewPagerAdapter$<init>(androidx.fragment.app.FragmentManager, org.joda.time.DateTime, kotlin.Int, kotlin.Int)/date">date</span><span class="symbol">:</span>&nbsp;<span class="identifier">DateTime</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.ViewPagerAdapter$<init>(androidx.fragment.app.FragmentManager, org.joda.time.DateTime, kotlin.Int, kotlin.Int)/vittlesEaten">vittlesEaten</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.ViewPagerAdapter$<init>(androidx.fragment.app.FragmentManager, org.joda.time.DateTime, kotlin.Int, kotlin.Int)/vittlesExpired">vittlesExpired</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span></code>
+<p>Binds fragments to views that are displayed in the view pager</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="date.html">date</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">date</span><span class="symbol">: </span><span class="identifier">DateTime</span></code>
+<p>From this date up to now the statistic should be shown</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="vittles-eaten.html">vittlesEaten</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">vittlesEaten</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>Amount of eaten vittles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="vittles-expired.html">vittlesExpired</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">vittlesExpired</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>Amount of expired vittles</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get-count.html">getCount</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getCount</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-item.html">getItem</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getItem</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.ViewPagerAdapter$getItem(kotlin.Int)/position">position</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Fragment</span></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-item-position.html">getItemPosition</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getItemPosition</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.ViewPagerAdapter$getItemPosition(kotlin.Any)/obj">obj</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-page-title.html">getPageTitle</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getPageTitle</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.ViewPagerAdapter$getPageTitle(kotlin.Int)/position">position</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html"><span class="identifier">CharSequence</span></a><span class="symbol">?</span></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="update-date.html">updateDate</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">updateDate</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.ViewPagerAdapter$updateDate(org.joda.time.DateTime, kotlin.Int, kotlin.Int)/date">date</span><span class="symbol">:</span>&nbsp;<span class="identifier">DateTime</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.ViewPagerAdapter$updateDate(org.joda.time.DateTime, kotlin.Int, kotlin.Int)/vittlesEaten">vittlesEaten</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.ViewPagerAdapter$updateDate(org.joda.time.DateTime, kotlin.Int, kotlin.Int)/vittlesExpired">vittlesExpired</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Is called when time range is changed</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

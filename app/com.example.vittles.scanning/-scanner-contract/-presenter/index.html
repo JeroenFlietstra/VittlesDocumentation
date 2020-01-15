@@ -1,0 +1,102 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ScannerContract.Presenter - app</title>
+<link rel="stylesheet" href="../../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../../index.html">app</a>&nbsp;/&nbsp;<a href="../../index.html">com.example.vittles.scanning</a>&nbsp;/&nbsp;<a href="../index.html">ScannerContract</a>&nbsp;/&nbsp;<a href="./index.html">Presenter</a><br/>
+<br/>
+<h1>Presenter</h1>
+<code><span class="keyword">interface </span><span class="identifier">Presenter</span></code>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="add-product-to-list.html">addProductToList</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">addProductToList</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.Presenter$addProductToList(com.example.domain.product.Product, kotlin.Boolean)/product">product</span><span class="symbol">:</span>&nbsp;<span class="identifier">Product</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.Presenter$addProductToList(com.example.domain.product.Product, kotlin.Boolean)/checkDate">checkDate</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="all-permissions-granted.html">allPermissionsGranted</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">allPermissionsGranted</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="check-permissions.html">checkPermissions</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">checkPermissions</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="get-image-analysis.html">getImageAnalysis</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getImageAnalysis</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">ImageAnalysis</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="get-preview.html">getPreview</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getPreview</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Preview</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="get-vibration-setting.html">getVibrationSetting</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getVibrationSetting</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="insert-product-dictionary.html">insertProductDictionary</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">insertProductDictionary</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.Presenter$insertProductDictionary(com.example.domain.barcode.ProductDictionary)/productDictionary">productDictionary</span><span class="symbol">:</span>&nbsp;<span class="identifier">ProductDictionary</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-performance-setting-lowered.html">onPerformanceSettingLowered</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onPerformanceSettingLowered</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="patch-product-dictionary.html">patchProductDictionary</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">patchProductDictionary</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.Presenter$patchProductDictionary(com.example.domain.barcode.ProductDictionary)/productDictionary">productDictionary</span><span class="symbol">:</span>&nbsp;<span class="identifier">ProductDictionary</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="start-camera.html">startCamera</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">startCamera</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../-scanner-presenter/index.html">ScannerPresenter</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ScannerPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../../../com.example.vittles.mvp/-base-presenter/index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../../-scanner-fragment/index.html"><span class="identifier">ScannerFragment</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><a href="./index.html"><span class="identifier">Presenter</span></a></code>
+<p>The presenter for the scanning activity.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

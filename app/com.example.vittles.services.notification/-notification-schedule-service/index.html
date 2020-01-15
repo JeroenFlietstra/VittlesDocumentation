@@ -1,0 +1,128 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>NotificationScheduleService - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.services.notification</a>&nbsp;/&nbsp;<a href="./index.html">NotificationScheduleService</a><br/>
+<br/>
+<h1>NotificationScheduleService</h1>
+<code><span class="keyword">class </span><span class="identifier">NotificationScheduleService</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerBroadcastReceiver</span><span class="symbol">, </span><a href="../-notification-schedule-contract/-service/index.html"><span class="identifier">Service</span></a></code>
+<p>Background scheduler for the notification service.</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<p><strong>Author</strong><br/>
+Fethi Tewelde</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">NotificationScheduleService</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>Background scheduler for the notification service.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="disposables.html">disposables</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">disposables</span><span class="symbol">: </span><span class="identifier">CompositeDisposable</span></code>
+<p>Disposables contains all async calls made</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="presenter.html">presenter</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">presenter</span><span class="symbol">: </span><a href="../-notification-schedule-presenter/index.html"><span class="identifier">NotificationSchedulePresenter</span></a></code>
+<p>The presenter of the NotificationScheduler</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="notify.html">notify</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">notify</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleService$notify(com.example.domain.notification.Notification, android.content.Context)/notification">notification</span><span class="symbol">:</span>&nbsp;<span class="identifier">Notification</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleService$notify(com.example.domain.notification.Notification, android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Creates the notification in the notification tray.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-notify-fail.html">onNotifyFail</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onNotifyFail</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleService$onNotifyFail(kotlin.Throwable)/error">error</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html"><span class="identifier">Throwable</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>If no notification can be shown, log if the error is not the NotificationDataException.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-receive.html">onReceive</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onReceive</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleService$onReceive(android.content.Context, android.content.Intent)/p0">p0</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleService$onReceive(android.content.Context, android.content.Intent)/p1">p1</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Intent.html"><span class="identifier">Intent</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Overridden function that calls the audit notification method every time the audit timestamp
+alarm goes off.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="alarm-manager.html">alarmManager</a></p>
+</td>
+<td>
+<code><span class="keyword">lateinit</span> <span class="keyword">var </span><span class="identifier">alarmManager</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/app/AlarmManager.html"><span class="identifier">AlarmManager</span></a></code>
+<p>The native alarm manager used for triggering the service.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="exit-notification-schedule.html">exitNotificationSchedule</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">exitNotificationSchedule</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleService.Companion$exitNotificationSchedule(android.content.Context, kotlin.Boolean)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleService.Companion$exitNotificationSchedule(android.content.Context, kotlin.Boolean)/notificationEnabled">notificationEnabled</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Checks if the notification is turned on or off
+Then based on that cancels broadcast of notification</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="schedule-notification-audit.html">scheduleNotificationAudit</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">scheduleNotificationAudit</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleService.Companion$scheduleNotificationAudit(android.content.Context, com.example.domain.settings.model.NotificationSchedule, kotlin.Boolean)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleService.Companion$scheduleNotificationAudit(android.content.Context, com.example.domain.settings.model.NotificationSchedule, kotlin.Boolean)/notificationSchedule">notificationSchedule</span><span class="symbol">:</span>&nbsp;<span class="identifier">NotificationSchedule</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.notification.NotificationScheduleService.Companion$scheduleNotificationAudit(android.content.Context, com.example.domain.settings.model.NotificationSchedule, kotlin.Boolean)/notificationEnabled">notificationEnabled</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Checks if the notification is turned on or off.
+Changes when to send notification based on 'notificationTimer'.
+Schedules next audit to the next day.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

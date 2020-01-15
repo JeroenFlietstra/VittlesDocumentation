@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>com.example.vittles.services.notification - app</title>
+<link rel="stylesheet" href="../../style.css">
+</HEAD>
+<BODY>
+<a href="../index.html">app</a>&nbsp;/&nbsp;<a href="./index.html">com.example.vittles.services.notification</a><br/>
+<br/>
+<h2>Package com.example.vittles.services.notification</h2>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-notification-schedule-contract/index.html">NotificationScheduleContract</a></p>
+</td>
+<td>
+<code><span class="keyword">interface </span><span class="identifier">NotificationScheduleContract</span></code>
+<p>MVP Contract for Notification Scheduler.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-notification-schedule-presenter/index.html">NotificationSchedulePresenter</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">NotificationSchedulePresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../com.example.vittles.mvp/-base-presenter/index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="-notification-schedule-service/index.html"><span class="identifier">NotificationScheduleService</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><a href="-notification-schedule-contract/-presenter/index.html"><span class="identifier">Presenter</span></a></code>
+<p>The presenter for the NotificationSchedule</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-notification-schedule-service/index.html">NotificationScheduleService</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">NotificationScheduleService</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerBroadcastReceiver</span><span class="symbol">, </span><a href="-notification-schedule-contract/-service/index.html"><span class="identifier">Service</span></a></code>
+<p>Background scheduler for the notification service.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-notification-service/index.html">NotificationService</a></p>
+</td>
+<td>
+<code><span class="keyword">object </span><span class="identifier">NotificationService</span></code>
+<p>Creates a notification Channel and Notifications</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

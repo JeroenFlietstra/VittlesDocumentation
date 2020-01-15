@@ -1,0 +1,87 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>SharedPreferenceHelper - data</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">data</a>&nbsp;/&nbsp;<a href="../index.html">com.example.data.settings</a>&nbsp;/&nbsp;<a href="./index.html">SharedPreferenceHelper</a><br/>
+<br/>
+<h1>SharedPreferenceHelper</h1>
+<code><span class="keyword">class </span><span class="identifier">SharedPreferenceHelper</span></code>
+<p>Shared preference class used to store simple data in the internal storage privately for each application
+that will be used to save setting preferences.</p>
+<h3>Parameters</h3>
+<p><a name="context"></a>
+<code>context</code> - application context</p>
+<p><strong>Author</strong><br/>
+Fethi Tewelde</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">SharedPreferenceHelper</span><span class="symbol">(</span><span class="identifier" id="com.example.data.settings.SharedPreferenceHelper$<init>(android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">)</span></code>
+<p>Shared preference class used to store simple data in the internal storage privately for each application
+that will be used to save setting preferences.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-p-r-e-f-s_-n-a-m-e.html">PREFS_NAME</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">PREFS_NAME</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="shared-pref.html">sharedPref</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">sharedPref</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/content/SharedPreferences.html"><span class="identifier">SharedPreferences</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get-value-boolean.html">getValueBoolean</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getValueBoolean</span><span class="symbol">(</span><span class="identifier" id="com.example.data.settings.SharedPreferenceHelper$getValueBoolean(kotlin.String, kotlin.Boolean)/KEY_NAME">KEY_NAME</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.example.data.settings.SharedPreferenceHelper$getValueBoolean(kotlin.String, kotlin.Boolean)/defaultValue">defaultValue</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Gets the boolean value of the shared preference</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-value-int.html">getValueInt</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getValueInt</span><span class="symbol">(</span><span class="identifier" id="com.example.data.settings.SharedPreferenceHelper$getValueInt(kotlin.String, kotlin.Int)/KEY_NAME">KEY_NAME</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.example.data.settings.SharedPreferenceHelper$getValueInt(kotlin.String, kotlin.Int)/defaultValue">defaultValue</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>Gets the Int value of the shared preference</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="save.html">save</a></p>
+</td>
+<td>
+<code><span class="keyword">internal</span> <span class="keyword">fun </span><span class="identifier">save</span><span class="symbol">(</span><span class="identifier" id="com.example.data.settings.SharedPreferenceHelper$save(kotlin.String, kotlin.Int)/KEY_NAME">KEY_NAME</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.example.data.settings.SharedPreferenceHelper$save(kotlin.String, kotlin.Int)/value">value</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code><br/>
+<code><span class="keyword">internal</span> <span class="keyword">fun </span><span class="identifier">save</span><span class="symbol">(</span><span class="identifier" id="com.example.data.settings.SharedPreferenceHelper$save(kotlin.String, kotlin.Boolean)/KEY_NAME">KEY_NAME</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.example.data.settings.SharedPreferenceHelper$save(kotlin.String, kotlin.Boolean)/status">status</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Saves shared preference</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

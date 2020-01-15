@@ -1,0 +1,71 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>com.example.vittles.wastereport.barchart - app</title>
+<link rel="stylesheet" href="../../style.css">
+</HEAD>
+<BODY>
+<a href="../index.html">app</a>&nbsp;/&nbsp;<a href="./index.html">com.example.vittles.wastereport.barchart</a><br/>
+<br/>
+<h2>Package com.example.vittles.wastereport.barchart</h2>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-bar-chart-contract/index.html">BarChartContract</a></p>
+</td>
+<td>
+<code><span class="keyword">interface </span><span class="identifier">BarChartContract</span></code>
+<p>MVP Contract for bar chart.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-bar-chart-fragment/index.html">BarChartFragment</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">BarChartFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerFragment</span><span class="symbol">, </span><a href="-bar-chart-contract/-view/index.html"><span class="identifier">View</span></a><span class="symbol">, </span><a href="../com.example.vittles.wastereport.circlechart/-refresh-data/index.html"><span class="identifier">RefreshData</span></a></code>
+<p>Fragment class for the circle chart.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-bar-chart-presenter/index.html">BarChartPresenter</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">BarChartPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../com.example.vittles.mvp/-base-presenter/index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="-bar-chart-fragment/index.html"><span class="identifier">BarChartFragment</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><a href="-bar-chart-contract/-presenter/index.html"><span class="identifier">Presenter</span></a></code>
+<p>This is the presenter for the bar chart.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-custom-bar-chart-render/index.html">CustomBarChartRender</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">CustomBarChartRender</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">BarChartRenderer</span></code>
+<p>Renderer for adding radius to bar chart entries</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-custom-y-axis-renderer/index.html">CustomYAxisRenderer</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">CustomYAxisRenderer</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">YAxisRenderer</span></code>
+<p>Custom Y Axis Renderer. Rotates y labels 180°.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-my-value-formatter/index.html">MyValueFormatter</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">MyValueFormatter</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">ValueFormatter</span></code>
+<p>Class for formatting axis labels</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

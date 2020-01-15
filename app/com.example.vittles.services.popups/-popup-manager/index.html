@@ -1,0 +1,100 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>PopupManager - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.services.popups</a>&nbsp;/&nbsp;<a href="./index.html">PopupManager</a><br/>
+<br/>
+<h1>PopupManager</h1>
+<code><span class="keyword">internal</span> <span class="keyword">class </span><span class="identifier">PopupManager</span></code>
+<p>This class is used to show custom popups.</p>
+<p><strong>Author</strong><br/>
+Arjen Simons</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">PopupManager</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>This class is used to show custom popups.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="auto-close-popup.html">autoClosePopup</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">autoClosePopup</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$autoClosePopup(kotlin.Long)/duration">duration</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Closes the active popup after a certain amount of milliseconds.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="button-action.html">buttonAction</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">buttonAction</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$buttonAction(kotlin.Function0((kotlin.Unit)))/action">action</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Handles a button action.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="close-popup.html">closePopup</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">closePopup</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Closes the active popup.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="show-popup.html">showPopup</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">showPopup</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$showPopup(android.content.Context, com.example.vittles.services.popups.IPopupBase, android.view.View)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$showPopup(android.content.Context, com.example.vittles.services.popups.IPopupBase, android.view.View)/popupBase">popupBase</span><span class="symbol">:</span>&nbsp;<a href="../-i-popup-base.html"><span class="identifier">IPopupBase</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$showPopup(android.content.Context, com.example.vittles.services.popups.IPopupBase, android.view.View)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets the AlertDialog and makes sure the popup xml is inflated.</p>
+<code><span class="keyword">internal</span> <span class="keyword">fun </span><span class="identifier">showPopup</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$showPopup(android.content.Context, com.example.vittles.services.popups.IPopupBase)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$showPopup(android.content.Context, com.example.vittles.services.popups.IPopupBase)/popupBase">popupBase</span><span class="symbol">:</span>&nbsp;<a href="../-i-popup-base.html"><span class="identifier">IPopupBase</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Displays a popup with a header and subText.</p>
+<code><span class="keyword">internal</span> <span class="keyword">fun </span><span class="identifier">showPopup</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$showPopup(android.content.Context, com.example.vittles.services.popups.IPopupBase, com.example.vittles.services.popups.IPopupButton)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$showPopup(android.content.Context, com.example.vittles.services.popups.IPopupBase, com.example.vittles.services.popups.IPopupButton)/popupBase">popupBase</span><span class="symbol">:</span>&nbsp;<a href="../-i-popup-base.html"><span class="identifier">IPopupBase</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$showPopup(android.content.Context, com.example.vittles.services.popups.IPopupBase, com.example.vittles.services.popups.IPopupButton)/button">button</span><span class="symbol">:</span>&nbsp;<a href="../-i-popup-button.html"><span class="identifier">IPopupButton</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Displays a popup with the header, subText and one button.</p>
+<code><span class="keyword">internal</span> <span class="keyword">fun </span><span class="identifier">showPopup</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$showPopup(android.content.Context, com.example.vittles.services.popups.IPopupBase, com.example.vittles.services.popups.IPopupButton, com.example.vittles.services.popups.IPopupButton)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$showPopup(android.content.Context, com.example.vittles.services.popups.IPopupBase, com.example.vittles.services.popups.IPopupButton, com.example.vittles.services.popups.IPopupButton)/popupBase">popupBase</span><span class="symbol">:</span>&nbsp;<a href="../-i-popup-base.html"><span class="identifier">IPopupBase</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$showPopup(android.content.Context, com.example.vittles.services.popups.IPopupBase, com.example.vittles.services.popups.IPopupButton, com.example.vittles.services.popups.IPopupButton)/buttonLeft">buttonLeft</span><span class="symbol">:</span>&nbsp;<a href="../-i-popup-button.html"><span class="identifier">IPopupButton</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.services.popups.PopupManager$showPopup(android.content.Context, com.example.vittles.services.popups.IPopupBase, com.example.vittles.services.popups.IPopupButton, com.example.vittles.services.popups.IPopupButton)/buttonRight">buttonRight</span><span class="symbol">:</span>&nbsp;<a href="../-i-popup-button.html"><span class="identifier">IPopupButton</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Displays a popup with the header, subText and two buttons.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-i-n-s-t-a-n-c-e.html">INSTANCE</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">INSTANCE</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">PopupManager</span></a><span class="symbol">?</span></code>
+<p>Instance of the pop up manager.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="instance.html">instance</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">instance</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">PopupManager</span></a></code>
+<p>The instance of the pop-up manager.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,221 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ScannerContract.View - app</title>
+<link rel="stylesheet" href="../../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../../index.html">app</a>&nbsp;/&nbsp;<a href="../../index.html">com.example.vittles.scanning</a>&nbsp;/&nbsp;<a href="../index.html">ScannerContract</a>&nbsp;/&nbsp;<a href="./index.html">View</a><br/>
+<br/>
+<h1>View</h1>
+<code><span class="keyword">interface </span><span class="identifier">View</span></code>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="init-listeners.html">initListeners</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">initListeners</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="init-views.html">initViews</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">initViews</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$initViews(android.view.View)/view">view</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/View.html"><span class="identifier">View</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-add-vittle-button-click.html">onAddVittleButtonClick</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onAddVittleButtonClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-analyzer-error.html">onAnalyzerError</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onAnalyzerError</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-barcode-not-found.html">onBarcodeNotFound</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onBarcodeNotFound</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-barcode-scanned.html">onBarcodeScanned</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onBarcodeScanned</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$onBarcodeScanned(com.example.domain.barcode.ProductDictionary)/productDictionary">productDictionary</span><span class="symbol">:</span>&nbsp;<span class="identifier">ProductDictionary</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-edit-expiration-button-click.html">onEditExpirationButtonClick</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onEditExpirationButtonClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-edit-name-button-click.html">onEditNameButtonClick</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onEditNameButtonClick</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-expiration-date-checkbox-checked.html">onExpirationDateCheckboxChecked</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onExpirationDateCheckboxChecked</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$onExpirationDateCheckboxChecked(kotlin.String)/text">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-expiration-date-edited.html">onExpirationDateEdited</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onExpirationDateEdited</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$onExpirationDateEdited(kotlin.String)/text">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-no-permission-granted.html">onNoPermissionGranted</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onNoPermissionGranted</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-product-name-checkbox-checked.html">onProductNameCheckboxChecked</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onProductNameCheckboxChecked</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$onProductNameCheckboxChecked(kotlin.String)/productName">productName</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-product-name-edited.html">onProductNameEdited</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onProductNameEdited</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$onProductNameEdited(com.example.domain.barcode.ProductDictionary, kotlin.Boolean)/productDictionary">productDictionary</span><span class="symbol">:</span>&nbsp;<span class="identifier">ProductDictionary</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$onProductNameEdited(com.example.domain.barcode.ProductDictionary, kotlin.Boolean)/insertLocal">insertLocal</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a>&nbsp;<span class="symbol">=</span>&nbsp;false<span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-request-permissions-from-fragment.html">onRequestPermissionsFromFragment</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onRequestPermissionsFromFragment</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-reset-date.html">onResetDate</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onResetDate</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-reset-product-name.html">onResetProductName</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onResetProductName</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-reset-view.html">onResetView</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onResetView</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-show-add-product-error.html">onShowAddProductError</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onShowAddProductError</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-show-add-product-succeed.html">onShowAddProductSucceed</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onShowAddProductSucceed</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-show-already-expired-popup.html">onShowAlreadyExpiredPopup</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onShowAlreadyExpiredPopup</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$onShowAlreadyExpiredPopup(com.example.domain.product.Product)/product">product</span><span class="symbol">:</span>&nbsp;<span class="identifier">Product</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-show-close-to-expiration-popup.html">onShowCloseToExpirationPopup</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onShowCloseToExpirationPopup</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$onShowCloseToExpirationPopup(com.example.domain.product.Product)/product">product</span><span class="symbol">:</span>&nbsp;<span class="identifier">Product</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-show-edit-name-dialog.html">onShowEditNameDialog</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onShowEditNameDialog</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$onShowEditNameDialog(com.example.domain.barcode.ProductDictionary)/productDictionary">productDictionary</span><span class="symbol">:</span>&nbsp;<span class="identifier">ProductDictionary</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-show-expiration-popup.html">onShowExpirationPopup</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onShowExpirationPopup</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$onShowExpirationPopup(com.example.domain.product.Product)/product">product</span><span class="symbol">:</span>&nbsp;<span class="identifier">Product</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-tap-to-focus.html">onTapToFocus</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onTapToFocus</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$onTapToFocus(android.view.MotionEvent)/event">event</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/view/MotionEvent.html"><span class="identifier">MotionEvent</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-text-not-found.html">onTextNotFound</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onTextNotFound</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-text-scanned.html">onTextScanned</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onTextScanned</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.scanning.ScannerContract.View$onTextScanned(kotlin.String)/text">text</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="on-torch-button-clicked.html">onTorchButtonClicked</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">onTorchButtonClicked</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Inheritors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../-scanner-fragment/index.html">ScannerFragment</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ScannerFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerFragment</span><span class="symbol">, </span><a href="./index.html"><span class="identifier">View</span></a></code>
+<p>The scanner fragment that displays the camera preview with the checklist.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>ParcelableProduct - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.productlist</a>&nbsp;/&nbsp;<a href="./index.html">ParcelableProduct</a><br/>
+<br/>
+<h1>ParcelableProduct</h1>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">ParcelableProduct</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Parcelable.html"><span class="identifier">Parcelable</span></a></code>
+<p>A parcelable variant of the product entity.</p>
+<p><strong>Author</strong><br/>
+Arjen Simons</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">ParcelableProduct</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.productlist.ParcelableProduct$<init>(kotlin.Int, kotlin.String, org.joda.time.DateTime, org.joda.time.DateTime, com.example.vittles.enums.DeleteType)/uid">uid</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ParcelableProduct$<init>(kotlin.Int, kotlin.String, org.joda.time.DateTime, org.joda.time.DateTime, com.example.vittles.enums.DeleteType)/productName">productName</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ParcelableProduct$<init>(kotlin.Int, kotlin.String, org.joda.time.DateTime, org.joda.time.DateTime, com.example.vittles.enums.DeleteType)/expirationDate">expirationDate</span><span class="symbol">:</span>&nbsp;<span class="identifier">DateTime</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ParcelableProduct$<init>(kotlin.Int, kotlin.String, org.joda.time.DateTime, org.joda.time.DateTime, com.example.vittles.enums.DeleteType)/creationDate">creationDate</span><span class="symbol">:</span>&nbsp;<span class="identifier">DateTime</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.productlist.ParcelableProduct$<init>(kotlin.Int, kotlin.String, org.joda.time.DateTime, org.joda.time.DateTime, com.example.vittles.enums.DeleteType)/deleteType">deleteType</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.enums/-delete-type/index.html"><span class="identifier">DeleteType</span></a><span class="symbol">?</span><span class="symbol">)</span></code>
+<p>A parcelable variant of the product entity.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="creation-date.html">creationDate</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">creationDate</span><span class="symbol">: </span><span class="identifier">DateTime</span></code>
+<p>The date the product was added to the room database.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="delete-type.html">deleteType</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">deleteType</span><span class="symbol">: </span><a href="../../com.example.vittles.enums/-delete-type/index.html"><span class="identifier">DeleteType</span></a><span class="symbol">?</span></code>
+<p>The DeleteType of the product.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="expiration-date.html">expirationDate</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">expirationDate</span><span class="symbol">: </span><span class="identifier">DateTime</span></code>
+<p>The product expiration date.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="product-name.html">productName</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">productName</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>The product name.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="uid.html">uid</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">uid</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">?</span></code>
+<p>The product id.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

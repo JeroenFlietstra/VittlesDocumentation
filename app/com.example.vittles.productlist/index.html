@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>com.example.vittles.productlist - app</title>
+<link rel="stylesheet" href="../../style.css">
+</HEAD>
+<BODY>
+<a href="../index.html">app</a>&nbsp;/&nbsp;<a href="./index.html">com.example.vittles.productlist</a><br/>
+<br/>
+<h2>Package com.example.vittles.productlist</h2>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-parcelable-product/index.html">ParcelableProduct</a></p>
+</td>
+<td>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">ParcelableProduct</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Parcelable.html"><span class="identifier">Parcelable</span></a></code>
+<p>A parcelable variant of the product entity.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-parcelable-product-mapper/index.html">ParcelableProductMapper</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ParcelableProductMapper</span></code>
+<p>Maps between the parcelable product in the app layer and the product in the domain.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-product-adapter/index.html">ProductAdapter</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ProductAdapter</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">Adapter</span><span class="symbol">&lt;</span><a href="-product-adapter/-view-holder/index.html"><span class="identifier">ViewHolder</span></a><span class="symbol">&gt;</span></code>
+<p>Binds app-specific data to views that are displayed in the RecyclerView.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-product-item-touch-helper/index.html">ProductItemTouchHelper</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ProductItemTouchHelper</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">Callback</span></code>
+<p>Creates an ItemTouchHelper and defines what happens on swiping.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-product-list-contract/index.html">ProductListContract</a></p>
+</td>
+<td>
+<code><span class="keyword">interface </span><span class="identifier">ProductListContract</span></code>
+<p>MVP Contract for products overview.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-product-list-fragment/index.html">ProductListFragment</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ProductListFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerFragment</span><span class="symbol">, </span><a href="-product-list-contract/-view/index.html"><span class="identifier">View</span></a></code>
+<p>Fragment class for the main activity. This is the fragment that shows the list of products.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-product-list-presenter/index.html">ProductListPresenter</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ProductListPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../com.example.vittles.mvp/-base-presenter/index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="-product-list-fragment/index.html"><span class="identifier">ProductListFragment</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><a href="-product-list-contract/-presenter/index.html"><span class="identifier">Presenter</span></a></code>
+<p>The presenter for the main product activity.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

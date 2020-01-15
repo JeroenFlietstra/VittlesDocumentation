@@ -1,0 +1,268 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>SettingsPresenter - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.settings</a>&nbsp;/&nbsp;<a href="./index.html">SettingsPresenter</a><br/>
+<br/>
+<h1>SettingsPresenter</h1>
+<code><span class="keyword">class </span><span class="identifier">SettingsPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.mvp/-base-presenter/index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="../-settings-fragment/index.html"><span class="identifier">SettingsFragment</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><a href="../-settings-contract/-presenter/index.html"><span class="identifier">Presenter</span></a></code>
+<p>The presenter for the settings activity.</p>
+<p><strong>Author</strong><br/>
+Fethi Tewelde</p>
+<p><strong>Author</strong><br/>
+Jan-Willem van Bremen</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">SettingsPresenter</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$<init>(com.example.domain.settings.SetNotificationSchedule, com.example.domain.settings.SetNotificationEnabled, com.example.domain.settings.SetVibrationEnabled, com.example.domain.settings.SetPerformanceSetting, com.example.domain.settings.GetNotificationSchedule, com.example.domain.settings.GetNotificationEnabled, com.example.domain.settings.GetVibrationEnabled, com.example.domain.settings.GetPerformanceSetting, com.example.domain.barcode.EmptyProductDictionary)/setNotificationSchedule">setNotificationSchedule</span><span class="symbol">:</span>&nbsp;<span class="identifier">SetNotificationSchedule</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$<init>(com.example.domain.settings.SetNotificationSchedule, com.example.domain.settings.SetNotificationEnabled, com.example.domain.settings.SetVibrationEnabled, com.example.domain.settings.SetPerformanceSetting, com.example.domain.settings.GetNotificationSchedule, com.example.domain.settings.GetNotificationEnabled, com.example.domain.settings.GetVibrationEnabled, com.example.domain.settings.GetPerformanceSetting, com.example.domain.barcode.EmptyProductDictionary)/setNotificationEnabled">setNotificationEnabled</span><span class="symbol">:</span>&nbsp;<span class="identifier">SetNotificationEnabled</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$<init>(com.example.domain.settings.SetNotificationSchedule, com.example.domain.settings.SetNotificationEnabled, com.example.domain.settings.SetVibrationEnabled, com.example.domain.settings.SetPerformanceSetting, com.example.domain.settings.GetNotificationSchedule, com.example.domain.settings.GetNotificationEnabled, com.example.domain.settings.GetVibrationEnabled, com.example.domain.settings.GetPerformanceSetting, com.example.domain.barcode.EmptyProductDictionary)/setVibrationEnabled">setVibrationEnabled</span><span class="symbol">:</span>&nbsp;<span class="identifier">SetVibrationEnabled</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$<init>(com.example.domain.settings.SetNotificationSchedule, com.example.domain.settings.SetNotificationEnabled, com.example.domain.settings.SetVibrationEnabled, com.example.domain.settings.SetPerformanceSetting, com.example.domain.settings.GetNotificationSchedule, com.example.domain.settings.GetNotificationEnabled, com.example.domain.settings.GetVibrationEnabled, com.example.domain.settings.GetPerformanceSetting, com.example.domain.barcode.EmptyProductDictionary)/setPerformanceSetting">setPerformanceSetting</span><span class="symbol">:</span>&nbsp;<span class="identifier">SetPerformanceSetting</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$<init>(com.example.domain.settings.SetNotificationSchedule, com.example.domain.settings.SetNotificationEnabled, com.example.domain.settings.SetVibrationEnabled, com.example.domain.settings.SetPerformanceSetting, com.example.domain.settings.GetNotificationSchedule, com.example.domain.settings.GetNotificationEnabled, com.example.domain.settings.GetVibrationEnabled, com.example.domain.settings.GetPerformanceSetting, com.example.domain.barcode.EmptyProductDictionary)/getNotificationSchedule">getNotificationSchedule</span><span class="symbol">:</span>&nbsp;<span class="identifier">GetNotificationSchedule</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$<init>(com.example.domain.settings.SetNotificationSchedule, com.example.domain.settings.SetNotificationEnabled, com.example.domain.settings.SetVibrationEnabled, com.example.domain.settings.SetPerformanceSetting, com.example.domain.settings.GetNotificationSchedule, com.example.domain.settings.GetNotificationEnabled, com.example.domain.settings.GetVibrationEnabled, com.example.domain.settings.GetPerformanceSetting, com.example.domain.barcode.EmptyProductDictionary)/getNotificationEnabled">getNotificationEnabled</span><span class="symbol">:</span>&nbsp;<span class="identifier">GetNotificationEnabled</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$<init>(com.example.domain.settings.SetNotificationSchedule, com.example.domain.settings.SetNotificationEnabled, com.example.domain.settings.SetVibrationEnabled, com.example.domain.settings.SetPerformanceSetting, com.example.domain.settings.GetNotificationSchedule, com.example.domain.settings.GetNotificationEnabled, com.example.domain.settings.GetVibrationEnabled, com.example.domain.settings.GetPerformanceSetting, com.example.domain.barcode.EmptyProductDictionary)/getVibrationEnabled">getVibrationEnabled</span><span class="symbol">:</span>&nbsp;<span class="identifier">GetVibrationEnabled</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$<init>(com.example.domain.settings.SetNotificationSchedule, com.example.domain.settings.SetNotificationEnabled, com.example.domain.settings.SetVibrationEnabled, com.example.domain.settings.SetPerformanceSetting, com.example.domain.settings.GetNotificationSchedule, com.example.domain.settings.GetNotificationEnabled, com.example.domain.settings.GetVibrationEnabled, com.example.domain.settings.GetPerformanceSetting, com.example.domain.barcode.EmptyProductDictionary)/getPerformanceSetting">getPerformanceSetting</span><span class="symbol">:</span>&nbsp;<span class="identifier">GetPerformanceSetting</span><span class="symbol">, </span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$<init>(com.example.domain.settings.SetNotificationSchedule, com.example.domain.settings.SetNotificationEnabled, com.example.domain.settings.SetVibrationEnabled, com.example.domain.settings.SetPerformanceSetting, com.example.domain.settings.GetNotificationSchedule, com.example.domain.settings.GetNotificationEnabled, com.example.domain.settings.GetVibrationEnabled, com.example.domain.settings.GetPerformanceSetting, com.example.domain.barcode.EmptyProductDictionary)/emptyProductDictionary">emptyProductDictionary</span><span class="symbol">:</span>&nbsp;<span class="identifier">EmptyProductDictionary</span><span class="symbol">)</span></code>
+<p>The presenter for the settings activity.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="empty-product-dictionary.html">emptyProductDictionary</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">emptyProductDictionary</span><span class="symbol">: </span><span class="identifier">EmptyProductDictionary</span></code>
+<p>The emptyProductDictionary use case from the domain module.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-notification-enabled.html">getNotificationEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">getNotificationEnabled</span><span class="symbol">: </span><span class="identifier">GetNotificationEnabled</span></code>
+<p>The getNotificationEnabled use case from the domain module.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-notification-schedule.html">getNotificationSchedule</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">getNotificationSchedule</span><span class="symbol">: </span><span class="identifier">GetNotificationSchedule</span></code>
+<p>The getNotificationSchedule use case from the domain module.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-performance-setting.html">getPerformanceSetting</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">getPerformanceSetting</span><span class="symbol">: </span><span class="identifier">GetPerformanceSetting</span></code>
+<p>The GetPerformanceSetting use case from the domain module.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-vibration-enabled.html">getVibrationEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">getVibrationEnabled</span><span class="symbol">: </span><span class="identifier">GetVibrationEnabled</span></code>
+<p>The getVibrationEnabled use case from the domain module.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="notification-enabled.html">notificationEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">notificationEnabled</span><span class="symbol">: </span><span class="identifier">MutableLiveData</span><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">&gt;</span></code>
+<p>observes LiveData objects for changes .</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="notification-schedule.html">notificationSchedule</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">notificationSchedule</span><span class="symbol">: </span><span class="identifier">MutableLiveData</span><span class="symbol">&lt;</span><span class="identifier">NotificationSchedule</span><span class="symbol">&gt;</span></code>
+<p>observes LiveData objects for changes .</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="performance-setting.html">performanceSetting</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">performanceSetting</span><span class="symbol">: </span><span class="identifier">MutableLiveData</span><span class="symbol">&lt;</span><span class="identifier">PerformanceSetting</span><span class="symbol">&gt;</span></code>
+<p>observes LiveData objects for changes .</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-notification-enabled.html">setNotificationEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">setNotificationEnabled</span><span class="symbol">: </span><span class="identifier">SetNotificationEnabled</span></code>
+<p>The setNotificationEnabled use case from the domain module.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-notification-schedule.html">setNotificationSchedule</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">setNotificationSchedule</span><span class="symbol">: </span><span class="identifier">SetNotificationSchedule</span></code>
+<p>The setNotificationSchedule use case from the domain module.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-performance-setting.html">setPerformanceSetting</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">setPerformanceSetting</span><span class="symbol">: </span><span class="identifier">SetPerformanceSetting</span></code>
+<p>The SetPerformanceSetting use case from the domain module.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-vibration-enabled.html">setVibrationEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">setVibrationEnabled</span><span class="symbol">: </span><span class="identifier">SetVibrationEnabled</span></code>
+<p>The setVibrationEnabled use case from the domain module.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="vibration-enabled.html">vibrationEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">vibrationEnabled</span><span class="symbol">: </span><span class="identifier">MutableLiveData</span><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">&gt;</span></code>
+<p>observes LiveData objects for changes .</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inherited Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../com.example.vittles.mvp/-base-presenter/disposables.html">disposables</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">disposables</span><span class="symbol">: </span><span class="identifier">CompositeDisposable</span></code>
+<p>Contains all async calls made.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../../com.example.vittles.mvp/-base-presenter/view.html">view</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">view</span><span class="symbol">: </span><a href="../../com.example.vittles.mvp/-base-presenter/index.html#V"><span class="identifier">V</span></a><span class="symbol">?</span></code>
+<p>The view of the fragment.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="clear-product-dictionary.html">clearProductDictionary</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">clearProductDictionary</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method used to remove all local product names</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-notification-enabled-changed.html">onNotificationEnabledChanged</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onNotificationEnabledChanged</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$onNotificationEnabledChanged(kotlin.Boolean)/isEnabled">isEnabled</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Checks for notificationEnabled settings changes</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-notification-schedule-changed.html">onNotificationScheduleChanged</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onNotificationScheduleChanged</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$onNotificationScheduleChanged(com.example.domain.settings.model.NotificationSchedule)/notificationSchedule">notificationSchedule</span><span class="symbol">:</span>&nbsp;<span class="identifier">NotificationSchedule</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Checks for notificationSchedule settings changes</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-performance-setting-changed.html">onPerformanceSettingChanged</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onPerformanceSettingChanged</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$onPerformanceSettingChanged(com.example.domain.settings.model.PerformanceSetting)/performanceSetting">performanceSetting</span><span class="symbol">:</span>&nbsp;<span class="identifier">PerformanceSetting</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Checks for PerformanceSetting settings changes</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-vibration-enabled-changed.html">onVibrationEnabledChanged</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onVibrationEnabledChanged</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$onVibrationEnabledChanged(kotlin.Boolean)/isEnabled">isEnabled</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Checks for VibrationEnabled settings changes</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="start-presenting.html">startPresenting</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">startPresenting</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.settings.SettingsPresenter$startPresenting(android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to start presenting</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Inherited Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="../../com.example.vittles.mvp/-base-presenter/destroy.html">destroy</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">destroy</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to clear the disposables of the presenter.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../../com.example.vittles.mvp/-base-presenter/start.html">start</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">start</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.mvp.BasePresenter$start(com.example.vittles.mvp.BasePresenter.V)/view">view</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.mvp/-base-presenter/index.html#V"><span class="identifier">V</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to start the presenter, will assign the activity.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="../../com.example.vittles.mvp/-base-presenter/stop.html">stop</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">fun </span><span class="identifier">stop</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Method to stop the presenter.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

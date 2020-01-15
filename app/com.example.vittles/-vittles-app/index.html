@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>VittlesApp - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles</a>&nbsp;/&nbsp;<a href="./index.html">VittlesApp</a><br/>
+<br/>
+<h1>VittlesApp</h1>
+<code><span class="keyword">class </span><span class="identifier">VittlesApp</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerApplication</span></code>
+<p>Startup class.</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">VittlesApp</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>Startup class.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="application-injector.html">applicationInjector</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">applicationInjector</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">AndroidInjector</span><span class="symbol">&lt;</span><a href="./index.html"><span class="identifier">VittlesApp</span></a><span class="symbol">&gt;</span></code>
+<p>{@link AndroidInjector}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-create.html">onCreate</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onCreate</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-r-e-q-u-e-s-t_-c-o-d-e_-p-e-r-m-i-s-s-i-o-n-s.html">REQUEST_CODE_PERMISSIONS</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">REQUEST_CODE_PERMISSIONS</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a></code>
+<p>This is an arbitrary number we are using to keep track of the permission
+request. Where an app has multiple context for requesting permission,
+this can help differentiate the different contexts.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-r-e-q-u-i-r-e-d_-p-e-r-m-i-s-s-i-o-n-s.html">REQUIRED_PERMISSIONS</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">REQUIRED_PERMISSIONS</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html"><span class="identifier">Array</span></a><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">&gt;</span></code>
+<p>This is an array of all the permission specified in the manifest.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,130 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>BarcodesRepositoryImpl - data</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">data</a>&nbsp;/&nbsp;<a href="../index.html">com.example.data.room.productdictionary</a>&nbsp;/&nbsp;<a href="./index.html">BarcodesRepositoryImpl</a><br/>
+<br/>
+<h1>BarcodesRepositoryImpl</h1>
+<code><span class="keyword">class </span><span class="identifier">BarcodesRepositoryImpl</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">BarcodesRepository</span></code>
+<p>This is the implementation of the BarcodesRepository in the Domain layer.</p>
+<p><strong>Author</strong><br/>
+Jeroen Flietstra</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">BarcodesRepositoryImpl</span><span class="symbol">(</span><span class="identifier" id="com.example.data.room.productdictionary.BarcodesRepositoryImpl$<init>(com.example.data.room.productdictionary.BarcodeDao, com.example.data.retrofit.tsco.TscoApiService, com.example.data.retrofit.off.OffApiService, com.example.data.room.productdictionary.ProductDictionaryModelMapper)/barcodeDao">barcodeDao</span><span class="symbol">:</span>&nbsp;<a href="../-barcode-dao/index.html"><span class="identifier">BarcodeDao</span></a><span class="symbol">, </span><span class="identifier" id="com.example.data.room.productdictionary.BarcodesRepositoryImpl$<init>(com.example.data.room.productdictionary.BarcodeDao, com.example.data.retrofit.tsco.TscoApiService, com.example.data.retrofit.off.OffApiService, com.example.data.room.productdictionary.ProductDictionaryModelMapper)/productsApiTSCO">productsApiTSCO</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.data.retrofit.tsco/-tsco-api-service/index.html"><span class="identifier">TscoApiService</span></a><span class="symbol">, </span><span class="identifier" id="com.example.data.room.productdictionary.BarcodesRepositoryImpl$<init>(com.example.data.room.productdictionary.BarcodeDao, com.example.data.retrofit.tsco.TscoApiService, com.example.data.retrofit.off.OffApiService, com.example.data.room.productdictionary.ProductDictionaryModelMapper)/productsApiOFF">productsApiOFF</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.data.retrofit.off/-off-api-service/index.html"><span class="identifier">OffApiService</span></a><span class="symbol">, </span><span class="identifier" id="com.example.data.room.productdictionary.BarcodesRepositoryImpl$<init>(com.example.data.room.productdictionary.BarcodeDao, com.example.data.retrofit.tsco.TscoApiService, com.example.data.retrofit.off.OffApiService, com.example.data.room.productdictionary.ProductDictionaryModelMapper)/mapper">mapper</span><span class="symbol">:</span>&nbsp;<a href="../-product-dictionary-model-mapper/index.html"><span class="identifier">ProductDictionaryModelMapper</span></a><span class="symbol">)</span></code>
+<p>This is the implementation of the BarcodesRepository in the Domain layer.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="barcode-dao.html">barcodeDao</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">barcodeDao</span><span class="symbol">: </span><a href="../-barcode-dao/index.html"><span class="identifier">BarcodeDao</span></a></code>
+<p>Reference to the BarcodeDao.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="mapper.html">mapper</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">mapper</span><span class="symbol">: </span><a href="../-product-dictionary-model-mapper/index.html"><span class="identifier">ProductDictionaryModelMapper</span></a></code>
+<p>The mapper used to map the barcode dictionary data class.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="products-api-o-f-f.html">productsApiOFF</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">productsApiOFF</span><span class="symbol">: </span><a href="../../com.example.data.retrofit.off/-off-api-service/index.html"><span class="identifier">OffApiService</span></a></code>
+<p>Reference to the OffApiService.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="products-api-t-s-c-o.html">productsApiTSCO</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">productsApiTSCO</span><span class="symbol">: </span><a href="../../com.example.data.retrofit.tsco/-tsco-api-service/index.html"><span class="identifier">TscoApiService</span></a></code>
+<p>Reference to the TscoApiService.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="empty-product-dictionary-room.html">emptyProductDictionaryRoom</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">emptyProductDictionaryRoom</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Completable</span></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-product-name-by-barcode-o-f-f.html">getProductNameByBarcodeOFF</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getProductNameByBarcodeOFF</span><span class="symbol">(</span><span class="identifier" id="com.example.data.room.productdictionary.BarcodesRepositoryImpl$getProductNameByBarcodeOFF(kotlin.String)/barcode">barcode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Observable</span><span class="symbol">&lt;</span><span class="identifier">ProductDictionary</span><span class="symbol">&gt;</span></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-product-name-by-barcode-room.html">getProductNameByBarcodeRoom</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getProductNameByBarcodeRoom</span><span class="symbol">(</span><span class="identifier" id="com.example.data.room.productdictionary.BarcodesRepositoryImpl$getProductNameByBarcodeRoom(kotlin.String)/barcode">barcode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Observable</span><span class="symbol">&lt;</span><span class="identifier">ProductDictionary</span><span class="symbol">&gt;</span></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-product-name-by-barcode-t-s-c-o.html">getProductNameByBarcodeTSCO</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getProductNameByBarcodeTSCO</span><span class="symbol">(</span><span class="identifier" id="com.example.data.room.productdictionary.BarcodesRepositoryImpl$getProductNameByBarcodeTSCO(kotlin.String)/barcode">barcode</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Observable</span><span class="symbol">&lt;</span><span class="identifier">ProductDictionary</span><span class="symbol">&gt;</span></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="insert-product-dictionary-room.html">insertProductDictionaryRoom</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">insertProductDictionaryRoom</span><span class="symbol">(</span><span class="identifier" id="com.example.data.room.productdictionary.BarcodesRepositoryImpl$insertProductDictionaryRoom(com.example.domain.barcode.ProductDictionary)/productDictionary">productDictionary</span><span class="symbol">:</span>&nbsp;<span class="identifier">ProductDictionary</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Completable</span></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="update-product-dictionary-room.html">updateProductDictionaryRoom</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">updateProductDictionaryRoom</span><span class="symbol">(</span><span class="identifier" id="com.example.data.room.productdictionary.BarcodesRepositoryImpl$updateProductDictionaryRoom(com.example.domain.barcode.ProductDictionary)/productDictionary">productDictionary</span><span class="symbol">:</span>&nbsp;<span class="identifier">ProductDictionary</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Completable</span></code>
+<p>{@inheritDoc}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

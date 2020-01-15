@@ -1,0 +1,10 @@
+$dokka.format:html
+$dokka.linkExtension:html
+
+com.example.data.retrofit.off
+com.example.data.retrofit.tsco
+com.example.data.room
+com.example.data.room.product
+com.example.data.room.productdictionary
+com.example.data.room.wastereport
+com.example.data.settings

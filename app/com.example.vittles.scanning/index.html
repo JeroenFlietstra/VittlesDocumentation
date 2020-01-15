@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>com.example.vittles.scanning - app</title>
+<link rel="stylesheet" href="../../style.css">
+</HEAD>
+<BODY>
+<a href="../index.html">app</a>&nbsp;/&nbsp;<a href="./index.html">com.example.vittles.scanning</a><br/>
+<br/>
+<h2>Package com.example.vittles.scanning</h2>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-preview-analyzer/index.html">PreviewAnalyzer</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">PreviewAnalyzer</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">Analyzer</span></code>
+<p>Analyzer used by CameraX to analyze frames from the camera preview.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-scanner-contract/index.html">ScannerContract</a></p>
+</td>
+<td>
+<code><span class="keyword">interface </span><span class="identifier">ScannerContract</span></code>
+<p>MVP Contract for scanning products.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-scanner-fragment/index.html">ScannerFragment</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ScannerFragment</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">DaggerFragment</span><span class="symbol">, </span><a href="-scanner-contract/-view/index.html"><span class="identifier">View</span></a></code>
+<p>The scanner fragment that displays the camera preview with the checklist.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-scanner-presenter/index.html">ScannerPresenter</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ScannerPresenter</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../com.example.vittles.mvp/-base-presenter/index.html"><span class="identifier">BasePresenter</span></a><span class="symbol">&lt;</span><a href="-scanner-fragment/index.html"><span class="identifier">ScannerFragment</span></a><span class="symbol">&gt;</span><span class="symbol">, </span><a href="-scanner-contract/-presenter/index.html"><span class="identifier">Presenter</span></a></code>
+<p>The presenter for the scanning activity.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

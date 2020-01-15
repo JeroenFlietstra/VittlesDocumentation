@@ -1,0 +1,57 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>WasteReportRepository - domain</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">domain</a>&nbsp;/&nbsp;<a href="../index.html">com.example.domain.wasteReport</a>&nbsp;/&nbsp;<a href="./index.html">WasteReportRepository</a><br/>
+<br/>
+<h1>WasteReportRepository</h1>
+<code><span class="keyword">interface </span><span class="identifier">WasteReportRepository</span></code>
+<p>Repository interface for the wasteReportProducts witch is implemented in the data module.</p>
+<p><strong>Author</strong><br/>
+Sarah Lange</p>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get-count-eaten-products.html">getCountEatenProducts</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getCountEatenProducts</span><span class="symbol">(</span><span class="identifier" id="com.example.domain.wasteReport.WasteReportRepository$getCountEatenProducts(kotlin.Long)/date">date</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Single</span><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">&gt;</span></code>
+<p>Gets amount of eaten vittles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-count-expired-products.html">getCountExpiredProducts</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getCountExpiredProducts</span><span class="symbol">(</span><span class="identifier" id="com.example.domain.wasteReport.WasteReportRepository$getCountExpiredProducts(kotlin.Long)/date">date</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Single</span><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">&gt;</span></code>
+<p>Gets amount of expired vittles</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-waste-report-products.html">getWasteReportProducts</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">getWasteReportProducts</span><span class="symbol">(</span><span class="identifier" id="com.example.domain.wasteReport.WasteReportRepository$getWasteReportProducts(kotlin.Long)/date">date</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Single</span><span class="symbol">&lt;</span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html"><span class="identifier">List</span></a><span class="symbol">&lt;</span><a href="../-waste-report-product/index.html"><span class="identifier">WasteReportProduct</span></a><span class="symbol">&gt;</span><span class="symbol">&gt;</span></code>
+<p>Gets the waste report products</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="post.html">post</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">fun </span><span class="identifier">post</span><span class="symbol">(</span><span class="identifier" id="com.example.domain.wasteReport.WasteReportRepository$post(com.example.domain.wasteReport.WasteReportProduct)/wasteReportProduct">wasteReportProduct</span><span class="symbol">:</span>&nbsp;<a href="../-waste-report-product/index.html"><span class="identifier">WasteReportProduct</span></a><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">Completable</span></code>
+<p>Adds a wasteReportProduct in the database.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

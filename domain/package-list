@@ -1,0 +1,10 @@
+$dokka.format:html
+$dokka.linkExtension:html
+
+com.example.domain.barcode
+com.example.domain.consts
+com.example.domain.notification
+com.example.domain.product
+com.example.domain.settings
+com.example.domain.settings.model
+com.example.domain.wasteReport

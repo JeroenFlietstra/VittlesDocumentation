@@ -1,0 +1,105 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>WasteTimeRangeMenu - app</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">app</a>&nbsp;/&nbsp;<a href="../index.html">com.example.vittles.wastereport</a>&nbsp;/&nbsp;<a href="./index.html">WasteTimeRangeMenu</a><br/>
+<br/>
+<h1>WasteTimeRangeMenu</h1>
+<code><span class="keyword">class </span><span class="identifier">WasteTimeRangeMenu</span></code>
+<p>Class for the sorting Menu, This menu shows all the sorting types and the current sorting type.</p>
+<p><strong>Author</strong><br/>
+Marc van Spronsen</p>
+<p><strong>Author</strong><br/>
+Sarah Lange</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">WasteTimeRangeMenu</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.WasteTimeRangeMenu$<init>(kotlin.Function1((org.joda.time.DateTime, kotlin.Unit)))/onDateChange">onDateChange</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">DateTime</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span></code>
+<p>Class for the sorting Menu, This menu shows all the sorting types and the current sorting type.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="on-date-change.html">onDateChange</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">onDateChange</span><span class="symbol">: </span><span class="symbol">(</span><span class="identifier">DateTime</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Callback for when a data changes.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="load-data.html">loadData</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">loadData</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.WasteTimeRangeMenu$loadData(org.joda.time.DateTime)/date">date</span><span class="symbol">:</span>&nbsp;<span class="identifier">DateTime</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code><ul><li>calls the onDateChange method in the wasteReportFragment when a button is clicked</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="on-sort-click.html">onSortClick</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onSortClick</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.WasteTimeRangeMenu$onSortClick(com.example.vittles.enums.TimeRange)/timeRange">timeRange</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.enums/-time-range/index.html"><span class="identifier">TimeRange</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Handles all actions that happen when a button is clicked</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="open-menu.html">openMenu</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">openMenu</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.WasteTimeRangeMenu$openMenu(android.content.Context, android.widget.TextView)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.example.vittles.wastereport.WasteTimeRangeMenu$openMenu(android.content.Context, android.widget.TextView)/button">button</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/widget/TextView.html"><span class="identifier">TextView</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Inflates the timeRangeMenu.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-circle-color.html">setCircleColor</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setCircleColor</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets the circle alpha to 1 of the selected time range method.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-listeners.html">setListeners</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setListeners</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets all the onClickListeners</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="set-time-range-btn-text.html">setTimeRangeBtnText</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">setTimeRangeBtnText</span><span class="symbol">(</span><span class="identifier" id="com.example.vittles.wastereport.WasteTimeRangeMenu$setTimeRangeBtnText(com.example.vittles.enums.TimeRange)/timeRange">timeRange</span><span class="symbol">:</span>&nbsp;<a href="../../com.example.vittles.enums/-time-range/index.html"><span class="identifier">TimeRange</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Sets the buttonText to the current time range.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
